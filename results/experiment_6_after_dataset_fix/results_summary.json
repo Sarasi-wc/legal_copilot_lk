@@ -1,0 +1,32 @@
+{
+  "rq1": {
+    "bm25": {
+      "recall@10_mean": 0.6166666666666666,
+      "mrr_mean": 0.6112842712842713,
+      "ndcg@10_mean": 0.7141977392743434
+    },
+    "dense": {
+      "recall@10_mean": 0.7388888888888889,
+      "mrr_mean": 0.826111111111111,
+      "ndcg@10_mean": 0.7864910463723872
+    },
+    "hybrid": {
+      "recall@10_mean": 0.8055555555555555,
+      "mrr_mean": 0.8075396825396824,
+      "ndcg@10_mean": 0.7963489577227024
+    },
+    "hybrid_rerank": {
+      "recall@10_mean": 0.9833333333333333,
+      "mrr_mean": 0.9777777777777777,
+      "ndcg@10_mean": 0.9827609145225682
+    }
+  },
+  "rq2": {
+    "rag_abstention_f1": 0.0,
+    "rag_attribution_precision": 0.9166666666666666,
+    "rag_attribution_recall": 0.3222222222222223,
+    "rag_attribution_f1": 0.47333333333333333,
+    "rag_faithfulness_mean": 0.8972,
+    "rag_faithfulness_std": 0.1968
+  }
+}

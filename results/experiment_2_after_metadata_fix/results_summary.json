@@ -1,0 +1,32 @@
+{
+  "rq1": {
+    "bm25": {
+      "recall@10_mean": 0.038461538461538464,
+      "mrr_mean": 0.02403846153846154,
+      "ndcg@10_mean": 0.5665788943966586
+    },
+    "dense": {
+      "recall@10_mean": 0.019230769230769232,
+      "mrr_mean": 0.01282051282051282,
+      "ndcg@10_mean": 0.5551409413219837
+    },
+    "hybrid": {
+      "recall@10_mean": 0.019230769230769232,
+      "mrr_mean": 0.021367521367521368,
+      "ndcg@10_mean": 0.5694383826653273
+    },
+    "hybrid_rerank": {
+      "recall@10_mean": 0.038461538461538464,
+      "mrr_mean": 0.019230769230769232,
+      "ndcg@10_mean": 0.5522814530533149
+    }
+  },
+  "rq2": {
+    "rag_abstention_f1": 0.0,
+    "rag_attribution_precision": 0.0,
+    "rag_attribution_recall": 0.0,
+    "rag_attribution_f1": 0.0,
+    "rag_faithfulness_mean": 0.9278,
+    "rag_faithfulness_std": 0.1649
+  }
+}

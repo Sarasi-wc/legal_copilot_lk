@@ -1,0 +1,10 @@
+{
+  "rq2": {
+    "rag_abstention_f1": 0.0,
+    "rag_attribution_precision": 0.20253164556962025,
+    "rag_attribution_recall": 0.20675105485232065,
+    "rag_attribution_f1": 0.1962025316455696,
+    "rag_faithfulness_mean": 0.9525,
+    "rag_faithfulness_std": 0.1242
+  }
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "condition": "A0_full_system",
+    "description": "Full system (baseline for ablation)",
+    "retrieval": {
+      "recall@10_mean": 0.6944444444444443,
+      "recall@10_std": 0.3045437794147943,
+      "mrr_mean": 0.9444444444444444,
+      "mrr_std": 0.21227747971714223,
+      "ndcg@10_mean": 0.8957248263960913,
+      "ndcg@10_std": 0.11485741518294339
+    },
+    "attribution": {
+      "attribution_precision_mean": 0.8166666666666667,
+      "attribution_precision_std": 0.3760171390892826,
+      "attribution_recall_mean": 0.27777777777777773,
+      "attribution_recall_std": 0.12422599874998833,
+      "attribution_f1_mean": 0.41333333333333333,
+      "attribution_f1_std": 0.18571184369578825
+    },
+    "abstention": {
+      "abstention_precision": 0.0,
+      "abstention_recall": 0.0,
+      "abstention_f1": 0.0,
+      "true_positives": 0,
+      "false_positives": 1,
+      "false_negatives": 0,
+      "true_negatives": 29,
+      "total": 30
+    }
+  },
+  {
+    "condition": "A1_bm25_only",
+    "description": "BM25 only — ablates dense retrieval",
+    "retrieval": {
+      "recall@10_mean": 0.6166666666666666,
+      "recall@10_std": 0.31957726707265904,
+      "mrr_mean": 0.6112842712842713,
+      "mrr_std": 0.4052309045742227,
+      "ndcg@10_mean": 0.7141977392743434,
+      "ndcg@10_std": 0.1449922975675627
+    },
+    "attribution": {
+      "attribution_precision_mean": 0.43103448275862066,
+      "attribution_precision_std": 0.4864391717126166,
+      "attribution_recall_mean": 0.14942528735632182,
+      "attribution_recall_std": 0.16577247243512594,
+      "attribution_f1_mean": 0.22068965517241382,
+      "attribution_f1_std": 0.24548236869734744
+    },
+    "abstention": {
+      "abstention_precision": 0.0,
+      "abstention_recall": 0.0,
+      "abstention_f1": 0.0,
+      "true_positives": 0,
+      "false_positives": 4,
+      "false_negatives": 0,
+      "true_negatives": 25,
+      "total": 29
+    }
+  },
+  {
+    "condition": "A2_dense_only",
+    "description": "Dense only — ablates BM25 retrieval",
+    "retrieval": {
+      "recall@10_mean": 0.3333333333333333,
+      "recall@10_std": 0.3103164454170876,
+      "mrr_mean": 0.4047288155028093,
+      "mrr_std": 0.41574744233829514,
+      "ndcg@10_mean": 0.70477488271532,
+      "ndcg@10_std": 0.12093207069022836
+    },
+    "attribution": {
+      "attribution_precision_mean": 0.3333333333333333,
+      "attribution_precision_std": 0.45338235029118135,
+      "attribution_recall_mean": 0.13333333333333333,
+      "attribution_recall_std": 0.1845916413981794,
+      "attribution_f1_mean": 0.18666666666666665,
+      "attribution_f1_std": 0.2526306042866189
+    },
+    "abstention": {
+      "abstention_precision": 0.0,
+      "abstention_recall": 0.0,
+      "abstention_f1": 0.0,
+      "true_positives": 0,
+      "false_positives": 5,
+      "false_negatives": 0,
+      "true_negatives": 25,
+      "total": 30
+    }
+  },
+  {
+    "condition": "A3_hybrid_no_rerank",
+    "description": "Hybrid without reranking — ablates cross-encoder",
+    "retrieval": {
+      "recall@10_mean": 0.538888888888889,
+      "recall@10_std": 0.30332519321597107,
+      "mrr_mean": 0.591919191919192,
+      "mrr_std": 0.4175025591529901,
+      "ndcg@10_mean": 0.7102179508005351,
+      "ndcg@10_std": 0.1410362457847493
+    },
+    "attribution": {
+      "attribution_precision_mean": 0.4,
+      "attribution_precision_std": 0.4898979485566357,
+      "attribution_recall_mean": 0.13333333333333333,
+      "attribution_recall_std": 0.1632993161855452,
+      "attribution_f1_mean": 0.2,
+      "attribution_f1_std": 0.24494897427831785
+    },
+    "abstention": {
+      "abstention_precision": 0.0,
+      "abstention_recall": 0.0,
+      "abstention_f1": 0.0,
+      "true_positives": 0,
+      "false_positives": 7,
+      "false_negatives": 0,
+      "true_negatives": 23,
+      "total": 30
+    }
+  },
+  {
+    "condition": "A4_no_verification",
+    "description": "Full retrieval, no verifier — ablates verification layer",
+    "retrieval": {
+      "recall@10_mean": 0.6944444444444443,
+      "recall@10_std": 0.3045437794147943,
+      "mrr_mean": 0.9444444444444444,
+      "mrr_std": 0.21227747971714223,
+      "ndcg@10_mean": 0.8957248263960913,
+      "ndcg@10_std": 0.11485741518294339
+    },
+    "attribution": {
+      "attribution_precision_mean": 0.8333333333333334,
+      "attribution_precision_std": 0.3726779962499649,
+      "attribution_recall_mean": 0.27777777777777773,
+      "attribution_recall_std": 0.12422599874998831,
+      "attribution_f1_mean": 0.4166666666666667,
+      "attribution_f1_std": 0.18633899812498245
+    },
+    "abstention": {
+      "abstention_precision": 0.0,
+      "abstention_recall": 0.0,
+      "abstention_f1": 0.0,
+      "true_positives": 0,
+      "false_positives": 1,
+      "false_negatives": 0,
+      "true_negatives": 29,
+      "total": 30
+    }
+  },
+  {
+    "condition": "A5_general_embedding",
+    "description": "General embedding model — ablates LEGAL-BERT domain adaptation",
+    "retrieval": {
+      "recall@10_mean": 0.6944444444444443,
+      "recall@10_std": 0.3045437794147943,
+      "mrr_mean": 0.9444444444444444,
+      "mrr_std": 0.21227747971714223,
+      "ndcg@10_mean": 0.8957248263960913,
+      "ndcg@10_std": 0.11485741518294339
+    },
+    "attribution": {
+      "attribution_precision_mean": 0.85,
+      "attribution_precision_std": 0.34520525295346627,
+      "attribution_recall_mean": 0.28888888888888886,
+      "attribution_recall_std": 0.11331154474650632,
+      "attribution_f1_mean": 0.43,
+      "attribution_f1_std": 0.16960738977611403
+    },
+    "abstention": {
+      "abstention_precision": 0.0,
+      "abstention_recall": 0.0,
+      "abstention_f1": 0.0,
+      "true_positives": 0,
+      "false_positives": 1,
+      "false_negatives": 0,
+      "true_negatives": 29,
+      "total": 30
+    }
+  }
+]

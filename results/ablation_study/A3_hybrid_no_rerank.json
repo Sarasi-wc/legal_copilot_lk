@@ -1,0 +1,30 @@
+{
+  "condition": "A3_hybrid_no_rerank",
+  "description": "Hybrid without reranking — ablates cross-encoder",
+  "retrieval": {
+    "recall@10_mean": 0.538888888888889,
+    "recall@10_std": 0.30332519321597107,
+    "mrr_mean": 0.591919191919192,
+    "mrr_std": 0.4175025591529901,
+    "ndcg@10_mean": 0.7102179508005351,
+    "ndcg@10_std": 0.1410362457847493
+  },
+  "attribution": {
+    "attribution_precision_mean": 0.4,
+    "attribution_precision_std": 0.4898979485566357,
+    "attribution_recall_mean": 0.13333333333333333,
+    "attribution_recall_std": 0.1632993161855452,
+    "attribution_f1_mean": 0.2,
+    "attribution_f1_std": 0.24494897427831785
+  },
+  "abstention": {
+    "abstention_precision": 0.0,
+    "abstention_recall": 0.0,
+    "abstention_f1": 0.0,
+    "true_positives": 0,
+    "false_positives": 7,
+    "false_negatives": 0,
+    "true_negatives": 23,
+    "total": 30
+  }
+}

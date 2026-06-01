@@ -1,0 +1,30 @@
+{
+  "condition": "A5_general_embedding",
+  "description": "General embedding model — ablates LEGAL-BERT domain adaptation",
+  "retrieval": {
+    "recall@10_mean": 0.6944444444444443,
+    "recall@10_std": 0.3045437794147943,
+    "mrr_mean": 0.9444444444444444,
+    "mrr_std": 0.21227747971714223,
+    "ndcg@10_mean": 0.8957248263960913,
+    "ndcg@10_std": 0.11485741518294339
+  },
+  "attribution": {
+    "attribution_precision_mean": 0.85,
+    "attribution_precision_std": 0.34520525295346627,
+    "attribution_recall_mean": 0.28888888888888886,
+    "attribution_recall_std": 0.11331154474650632,
+    "attribution_f1_mean": 0.43,
+    "attribution_f1_std": 0.16960738977611403
+  },
+  "abstention": {
+    "abstention_precision": 0.0,
+    "abstention_recall": 0.0,
+    "abstention_f1": 0.0,
+    "true_positives": 0,
+    "false_positives": 1,
+    "false_negatives": 0,
+    "true_negatives": 29,
+    "total": 30
+  }
+}

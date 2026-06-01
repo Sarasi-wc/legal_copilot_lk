@@ -1,0 +1,30 @@
+{
+  "condition": "A1_bm25_only",
+  "description": "BM25 only — ablates dense retrieval",
+  "retrieval": {
+    "recall@10_mean": 0.6166666666666666,
+    "recall@10_std": 0.31957726707265904,
+    "mrr_mean": 0.6112842712842713,
+    "mrr_std": 0.4052309045742227,
+    "ndcg@10_mean": 0.7141977392743434,
+    "ndcg@10_std": 0.1449922975675627
+  },
+  "attribution": {
+    "attribution_precision_mean": 0.43103448275862066,
+    "attribution_precision_std": 0.4864391717126166,
+    "attribution_recall_mean": 0.14942528735632182,
+    "attribution_recall_std": 0.16577247243512594,
+    "attribution_f1_mean": 0.22068965517241382,
+    "attribution_f1_std": 0.24548236869734744
+  },
+  "abstention": {
+    "abstention_precision": 0.0,
+    "abstention_recall": 0.0,
+    "abstention_f1": 0.0,
+    "true_positives": 0,
+    "false_positives": 4,
+    "false_negatives": 0,
+    "true_negatives": 25,
+    "total": 29
+  }
+}

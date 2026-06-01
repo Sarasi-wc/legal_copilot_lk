@@ -1,0 +1,183 @@
+{
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "What is the official religion of Sri Lanka?",
+      "gold_article": "Article 9",
+      "topic": "religion/state"
+    },
+    {
+      "id": "Q02",
+      "question": "What are the fundamental rights guaranteed under the Constitution of Sri Lanka?",
+      "gold_article": "Articles 10-14",
+      "topic": "fundamental rights"
+    },
+    {
+      "id": "Q03",
+      "question": "How can Parliament be dissolved before the end of its term?",
+      "gold_article": "Article 70",
+      "topic": "parliament/dissolution"
+    },
+    {
+      "id": "Q04",
+      "question": "What are the qualifications to become President of Sri Lanka?",
+      "gold_article": "Article 91",
+      "topic": "executive/president"
+    },
+    {
+      "id": "Q05",
+      "question": "How is the Constitution of Sri Lanka amended?",
+      "gold_article": "Articles 82-83",
+      "topic": "constitutional amendment"
+    },
+    {
+      "id": "Q06",
+      "question": "What are the official languages of Sri Lanka under the Constitution?",
+      "gold_article": "Articles 18-19",
+      "topic": "official language"
+    },
+    {
+      "id": "Q07",
+      "question": "On what grounds can the President of Sri Lanka be removed from office?",
+      "gold_article": "Article 38",
+      "topic": "executive/removal"
+    },
+    {
+      "id": "Q08",
+      "question": "What is the jurisdiction of the Supreme Court of Sri Lanka?",
+      "gold_article": "Article 118",
+      "topic": "judiciary"
+    },
+    {
+      "id": "Q09",
+      "question": "What is the Consolidated Fund under the Constitution of Sri Lanka?",
+      "gold_article": "Article 148",
+      "topic": "finance"
+    },
+    {
+      "id": "Q10",
+      "question": "Can the freedom of thought and conscience be restricted under the Constitution?",
+      "gold_article": "Article 10",
+      "topic": "fundamental rights"
+    }
+  ],
+  "baseline_results": [
+    {
+      "id": "Q01",
+      "question": "What is the official religion of Sri Lanka?",
+      "gold_article": "Article 9",
+      "topic": "religion/state",
+      "answer": "The official religion of Sri Lanka is Buddhism.",
+      "abstained": false,
+      "citations": [],
+      "num_retrieved": 0,
+      "system": "no_rag_baseline"
+    },
+    {
+      "id": "Q02",
+      "question": "What are the fundamental rights guaranteed under the Constitution of Sri Lanka?",
+      "gold_article": "Articles 10-14",
+      "topic": "fundamental rights",
+      "answer": "The fundamental rights guaranteed under the Constitution of Sri Lanka include:\n\n1. Right to equality\n2. Right to freedom of speech, assembly, association, occupation, movement, and religion\n3. Right to non-discrimination\n4. Right to property\n5. Right to freedom from torture\n6. Right to freedom from arbitrary arrest and detention\n7. Right to privacy\n8. Right to access information\n9. Right to education\n10. Right to health\n\nThese fundamental rights are enshrined in Chapter III of the Constitution of Sri Lanka and are protected by the Supreme Court of Sri Lanka.",
+      "abstained": false,
+      "citations": [],
+      "num_retrieved": 0,
+      "system": "no_rag_baseline"
+    },
+    {
+      "id": "Q03",
+      "question": "How can Parliament be dissolved before the end of its term?",
+      "gold_article": "Article 70",
+      "topic": "parliament/dissolution",
+      "answer": "In Sri Lanka, Parliament can be dissolved before the end of its term in two ways:\n\n1. By the President: The President of Sri Lanka has the power to dissolve Parliament under certain circumstances. According to the Constitution of Sri Lanka, the President can dissolve Parliament after it has completed four and a half years of its five-year term. The President can then call for a general election to elect a new Parliament.\n\n2. Vote of No Confidence: Parliament can also be dissolved if a vote of no confidence is passed against the government. If a majority of Members of Parliament vote in favor of a no-confidence motion, the government is considered to have lost the confidence of Parliament, and the President may dissolve Parliament and call for a general election.\n\nIt is important to note that the specific procedures and requirements for the dissolution of Parliament may vary, so it is advisable to consult the Constitution of Sri Lanka and seek legal advice for accurate and up-to-date information.",
+      "abstained": false,
+      "citations": [],
+      "num_retrieved": 0,
+      "system": "no_rag_baseline"
+    },
+    {
+      "id": "Q04",
+      "question": "What are the qualifications to become President of Sri Lanka?",
+      "gold_article": "Article 91",
+      "topic": "executive/president",
+      "answer": "To qualify to become the President of Sri Lanka, a person must:\n\n1. Be a citizen of Sri Lanka\n2. Be not less than 35 years of age\n3. Be qualified to be an elector as per the provisions of the law relating to parliamentary elections\n4. Not be disqualified from being an elector under any law in force in Sri Lanka\n\nThese qualifications are outlined in the Constitution of Sri Lanka, specifically in Article 31.",
+      "abstained": false,
+      "citations": [],
+      "num_retrieved": 0,
+      "system": "no_rag_baseline"
+    },
+    {
+      "id": "Q05",
+      "question": "How is the Constitution of Sri Lanka amended?",
+      "gold_article": "Articles 82-83",
+      "topic": "constitutional amendment",
+      "answer": "The Constitution of Sri Lanka can be amended through a process outlined in Article 82 of the Constitution. According to this article, an amendment to the Constitution can be proposed by either a Member of Parliament or by a citizen. \n\nIf the amendment is proposed by a Member of Parliament, it must be passed by a two-thirds majority in Parliament. If the amendment is proposed by a citizen, it must be submitted to the Speaker of Parliament and then approved by a two-thirds majority in Parliament.\n\nAfter being passed by Parliament, the amendment must be approved by the people at a referendum. If the amendment is approved by a majority of the people voting at the referendum, it is then enacted and becomes part of the Constitution.\n\nIt is important to note that certain provisions of the Constitution, such as those relating to the unitary status of the country, the sovereignty of the people, and the territorial integrity of Sri Lanka, cannot be amended under any circumstances.",
+      "abstained": false,
+      "citations": [],
+      "num_retrieved": 0,
+      "system": "no_rag_baseline"
+    },
+    {
+      "id": "Q06",
+      "question": "What are the official languages of Sri Lanka under the Constitution?",
+      "gold_article": "Articles 18-19",
+      "topic": "official language",
+      "answer": "Under the Constitution of Sri Lanka, the official languages of the country are Sinhala and Tamil. Both languages have equal status and are used for official and administrative purposes in Sri Lanka. Additionally, English is also recognized as a link language in the country.",
+      "abstained": false,
+      "citations": [],
+      "num_retrieved": 0,
+      "system": "no_rag_baseline"
+    },
+    {
+      "id": "Q07",
+      "question": "On what grounds can the President of Sri Lanka be removed from office?",
+      "gold_article": "Article 38",
+      "topic": "executive/removal",
+      "answer": "The President of Sri Lanka can be removed from office on the following grounds:\n\n1. Impeachment by Parliament for \"violation of the Constitution\" or \"gross misconduct\" - This process requires a resolution signed by not less than one-third of the total number of Members of Parliament (including the Speaker) and setting out the allegations against the President. The resolution must then be approved by a two-thirds majority of the total number of Members of Parliament.\n\n2. Voluntary resignation by the President - The President can resign from office by submitting a written resignation to the Speaker of Parliament.\n\n3. Death or permanent incapacity of the President - In the event of the death or permanent incapacity of the President, the Speaker of Parliament will act as the Acting President until a new President is elected.\n\nIt is important to note that the process of removing the President from office in Sri Lanka is governed by the Constitution of Sri Lanka, specifically the provisions relating to the impeachment of the President.",
+      "abstained": false,
+      "citations": [],
+      "num_retrieved": 0,
+      "system": "no_rag_baseline"
+    },
+    {
+      "id": "Q08",
+      "question": "What is the jurisdiction of the Supreme Court of Sri Lanka?",
+      "gold_article": "Article 118",
+      "topic": "judiciary",
+      "answer": "The Supreme Court of Sri Lanka has jurisdiction to hear and determine appeals from the Court of Appeal, as well as to hear and determine constitutional matters referred to it by the President of Sri Lanka. The Supreme Court also has the power to interpret the Constitution and to determine the constitutionality of laws and executive actions. Additionally, the Supreme Court has jurisdiction to hear fundamental rights applications brought under the Fundamental Rights Chapter of the Constitution of Sri Lanka.",
+      "abstained": false,
+      "citations": [],
+      "num_retrieved": 0,
+      "system": "no_rag_baseline"
+    },
+    {
+      "id": "Q09",
+      "question": "What is the Consolidated Fund under the Constitution of Sri Lanka?",
+      "gold_article": "Article 148",
+      "topic": "finance",
+      "answer": "The Consolidated Fund is established under the Constitution of Sri Lanka and is the primary government account into which all revenues received and loans raised by the government are paid. It also includes all government expenditures. The Constitution specifies that no money shall be withdrawn from the Consolidated Fund except in accordance with the law. The Consolidated Fund is a key element in ensuring financial accountability and transparency in government operations.",
+      "abstained": false,
+      "citations": [],
+      "num_retrieved": 0,
+      "system": "no_rag_baseline"
+    },
+    {
+      "id": "Q10",
+      "question": "Can the freedom of thought and conscience be restricted under the Constitution?",
+      "gold_article": "Article 10",
+      "topic": "fundamental rights",
+      "answer": "Under the Constitution of Sri Lanka, the freedom of thought and conscience is a fundamental right guaranteed to all citizens. This right is protected under Article 10 of the Constitution, which states that every person is entitled to freedom of thought, conscience, and religion, including the freedom to have or to adopt a religion or belief of his choice.\n\nHowever, like most fundamental rights, the freedom of thought and conscience is not an absolute right and can be subject to certain restrictions. These restrictions must be prescribed by law and be necessary in a democratic society in the interests of national security, public order, public health, or the protection of the rights and freedoms of others.\n\nTherefore, while the freedom of thought and conscience is generally protected under the Constitution, it can be restricted under certain circumstances as outlined above.",
+      "abstained": false,
+      "citations": [],
+      "num_retrieved": 0,
+      "system": "no_rag_baseline"
+    }
+  ],
+  "rag_results": [],
+  "summary": {
+    "n_questions": 10,
+    "baseline_abstentions": 0,
+    "rag_abstentions": null,
+    "rag_with_citations": null
+  }
+}

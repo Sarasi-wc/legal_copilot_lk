@@ -1,0 +1,11 @@
+{
+  "conditions": [
+    "A0_full_system",
+    "A1_bm25_only",
+    "A2_dense_only",
+    "A3_hybrid_no_rerank",
+    "A4_no_verification",
+    "A5_general_embedding"
+  ],
+  "timestamp": "2026-03-09T01:24:01"
+}

@@ -1,0 +1,30 @@
+{
+  "condition": "A4_no_verification",
+  "description": "Full retrieval, no verifier — ablates verification layer",
+  "retrieval": {
+    "recall@10_mean": 0.6944444444444443,
+    "recall@10_std": 0.3045437794147943,
+    "mrr_mean": 0.9444444444444444,
+    "mrr_std": 0.21227747971714223,
+    "ndcg@10_mean": 0.8957248263960913,
+    "ndcg@10_std": 0.11485741518294339
+  },
+  "attribution": {
+    "attribution_precision_mean": 0.8333333333333334,
+    "attribution_precision_std": 0.3726779962499649,
+    "attribution_recall_mean": 0.27777777777777773,
+    "attribution_recall_std": 0.12422599874998831,
+    "attribution_f1_mean": 0.4166666666666667,
+    "attribution_f1_std": 0.18633899812498245
+  },
+  "abstention": {
+    "abstention_precision": 0.0,
+    "abstention_recall": 0.0,
+    "abstention_f1": 0.0,
+    "true_positives": 0,
+    "false_positives": 1,
+    "false_negatives": 0,
+    "true_negatives": 29,
+    "total": 30
+  }
+}

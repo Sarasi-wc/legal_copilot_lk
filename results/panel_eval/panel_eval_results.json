@@ -1,0 +1,36 @@
+{
+  "n_items": 54,
+  "n_reviewers": 5,
+  "reviewers": [
+    "Chathuri Madushika",
+    "Rohana Dasanayaka",
+    "Dulani Kulasooriya",
+    "Dulshan Liyanaarachchi",
+    "Inoshika Kodithuwakku"
+  ],
+  "icc_model": "ICC(2,1) two-way random effects, single measures, absolute agreement",
+  "icc_results": {
+    "Correctness": {
+      "n": 53,
+      "icc_2_1": 0.0232,
+      "interpretation": "Poor"
+    },
+    "Completeness": {
+      "n": 54,
+      "icc_2_1": 0.0307,
+      "interpretation": "Poor"
+    },
+    "Clarity": {
+      "n": 54,
+      "icc_2_1": 0.0432,
+      "interpretation": "Poor"
+    }
+  },
+  "overall_icc_mean": 0.0324,
+  "mean_scores": {
+    "Correctness": 4.601,
+    "Completeness": 4.526,
+    "Clarity": 4.677,
+    "Overall": 4.601
+  }
+}

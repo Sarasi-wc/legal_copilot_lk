@@ -1,0 +1,152 @@
+[
+  {
+    "condition": "A0_full_system",
+    "description": "Full system (hybrid+rerank, all-mpnet bi-encoder)",
+    "retrieval": {
+      "recall@10_mean": 0.3875,
+      "recall@10_std": 0.4682821739554523,
+      "mrr_mean": 0.30123132586367884,
+      "mrr_std": 0.41497196855972796,
+      "ndcg@10_mean": 0.6495111370574965,
+      "ndcg@10_std": 0.2018318858250241
+    },
+    "attribution": {
+      "attribution_precision_mean": 0.2172995780590717,
+      "attribution_precision_std": 0.3809404588363431,
+      "attribution_recall_mean": 0.23839662447257381,
+      "attribution_recall_std": 0.4114086332404562,
+      "attribution_f1_mean": 0.2189873417721519,
+      "attribution_f1_std": 0.3776708374274413
+    },
+    "abstention": {
+      "abstention_precision": 0.0,
+      "abstention_recall": 0.0,
+      "abstention_f1": 0.0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "true_negatives": 79,
+      "total": 79
+    }
+  },
+  {
+    "condition": "A1_bm25_only",
+    "description": "BM25 only — ablates dense retrieval",
+    "retrieval": {
+      "recall@10_mean": 0.3145833333333333,
+      "recall@10_std": 0.4440921998239154,
+      "mrr_mean": 0.2058110119047619,
+      "mrr_std": 0.3464043857607168,
+      "ndcg@10_mean": 0.6031793651567108,
+      "ndcg@10_std": 0.18113179982147484
+    },
+    "attribution": {
+      "attribution_precision_mean": 0.23026315789473684,
+      "attribution_precision_std": 0.400992104149231,
+      "attribution_recall_mean": 0.24122807017543862,
+      "attribution_recall_std": 0.41657432032983516,
+      "attribution_f1_mean": 0.22587719298245615,
+      "attribution_f1_std": 0.38871503280848546
+    },
+    "abstention": {
+      "abstention_precision": 0.0,
+      "abstention_recall": 0.0,
+      "abstention_f1": 0.0,
+      "true_positives": 0,
+      "false_positives": 3,
+      "false_negatives": 0,
+      "true_negatives": 73,
+      "total": 76
+    }
+  },
+  {
+    "condition": "A2_dense_only",
+    "description": "Dense only — ablates BM25 retrieval",
+    "retrieval": {
+      "recall@10_mean": 0.31875,
+      "recall@10_std": 0.4395339624723744,
+      "mrr_mean": 0.22956317987567987,
+      "mrr_std": 0.3695688331521047,
+      "ndcg@10_mean": 0.6180915999122012,
+      "ndcg@10_std": 0.19225983439964425
+    },
+    "attribution": {
+      "attribution_precision_mean": 0.2145833333333333,
+      "attribution_precision_std": 0.3793211681558401,
+      "attribution_recall_mean": 0.22291666666666665,
+      "attribution_recall_std": 0.393474330307723,
+      "attribution_f1_mean": 0.20791666666666667,
+      "attribution_f1_std": 0.3620636741882105
+    },
+    "abstention": {
+      "abstention_precision": 0.0,
+      "abstention_recall": 0.0,
+      "abstention_f1": 0.0,
+      "true_positives": 0,
+      "false_positives": 3,
+      "false_negatives": 0,
+      "true_negatives": 77,
+      "total": 80
+    }
+  },
+  {
+    "condition": "A3_hybrid_no_rerank",
+    "description": "Hybrid without reranking — ablates cross-encoder",
+    "retrieval": {
+      "recall@10_mean": 0.38125,
+      "recall@10_std": 0.4633766091900242,
+      "mrr_mean": 0.25318452380952383,
+      "mrr_std": 0.3594646639598543,
+      "ndcg@10_mean": 0.6130065622420247,
+      "ndcg@10_std": 0.18932431046503337
+    },
+    "attribution": {
+      "attribution_precision_mean": 0.25,
+      "attribution_precision_std": 0.4217636961434867,
+      "attribution_recall_mean": 0.24145299145299143,
+      "attribution_recall_std": 0.41314532177794966,
+      "attribution_f1_mean": 0.2393162393162393,
+      "attribution_f1_std": 0.40526251875729136
+    },
+    "abstention": {
+      "abstention_precision": 0.0,
+      "abstention_recall": 0.0,
+      "abstention_f1": 0.0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "true_negatives": 78,
+      "total": 78
+    }
+  },
+  {
+    "condition": "A4_no_verification",
+    "description": "Full retrieval, no verifier — ablates verification layer",
+    "retrieval": {
+      "recall@10_mean": 0.3875,
+      "recall@10_std": 0.4682821739554523,
+      "mrr_mean": 0.30123132586367884,
+      "mrr_std": 0.41497196855972796,
+      "ndcg@10_mean": 0.6495111370574965,
+      "ndcg@10_std": 0.2018318858250241
+    },
+    "attribution": {
+      "attribution_precision_mean": 0.22151898734177214,
+      "attribution_precision_std": 0.3794302477803004,
+      "attribution_recall_mean": 0.23839662447257381,
+      "attribution_recall_std": 0.4036433445267363,
+      "attribution_f1_mean": 0.22151898734177214,
+      "attribution_f1_std": 0.37382870896698095
+    },
+    "abstention": {
+      "abstention_precision": 0.0,
+      "abstention_recall": 0.0,
+      "abstention_f1": 0.0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "true_negatives": 79,
+      "total": 79
+    }
+  }
+]

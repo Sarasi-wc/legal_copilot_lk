@@ -1,0 +1,201 @@
+{
+  "model": "roberta-large-mnli",
+  "n_pairs": 22,
+  "n_entailed": 11,
+  "n_not_entailed": 11,
+  "scores": [
+    0.9930098056793213,
+    0.9872478246688843,
+    0.0016224865103140473,
+    0.2866848111152649,
+    0.9939813017845154,
+    0.9667534828186035,
+    0.004120809491723776,
+    0.0036461653653532267,
+    0.9920458793640137,
+    0.9597738981246948,
+    0.0002203462936449796,
+    0.010594712570309639,
+    0.9921802282333374,
+    0.951444149017334,
+    0.0221887044608593,
+    0.0025871586985886097,
+    0.9679090976715088,
+    0.0005702663329429924,
+    0.9807963371276855,
+    0.007462253328412771,
+    0.9910910129547119,
+    0.0008343028603121638
+  ],
+  "labels": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+  ],
+  "optimal_threshold": 0.29,
+  "optimal_stats": {
+    "threshold": 0.29,
+    "f1": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "accuracy": 1.0,
+    "tp": 11,
+    "fp": 0,
+    "fn": 0,
+    "tn": 11
+  },
+  "current_threshold": 0.15,
+  "pairs": [
+    {
+      "evidence": "The Republic of Sri Lanka shall give to Buddhism the foremost place and accordingly it shall be the ",
+      "claim": "Buddhism has the foremost place in Sri Lanka.",
+      "label": 1,
+      "score": 0.9930098056793213
+    },
+    {
+      "evidence": "The Republic of Sri Lanka shall give to Buddhism the foremost place and accordingly it shall be the ",
+      "claim": "The State is obliged to protect and foster Buddhism.",
+      "label": 1,
+      "score": 0.9872478246688843
+    },
+    {
+      "evidence": "The Republic of Sri Lanka shall give to Buddhism the foremost place and accordingly it shall be the ",
+      "claim": "Christianity is the official religion of Sri Lanka.",
+      "label": 0,
+      "score": 0.0016224865103140473
+    },
+    {
+      "evidence": "The Republic of Sri Lanka shall give to Buddhism the foremost place and accordingly it shall be the ",
+      "claim": "All religions have equal status under the Constitution.",
+      "label": 0,
+      "score": 0.2866848111152649
+    },
+    {
+      "evidence": "Every person is entitled to freedom of thought, conscience and religion, including the freedom to ha",
+      "claim": "Every person has freedom of thought, conscience and religion.",
+      "label": 1,
+      "score": 0.9939813017845154
+    },
+    {
+      "evidence": "Every person is entitled to freedom of thought, conscience and religion, including the freedom to ha",
+      "claim": "People are free to adopt any religion of their choice.",
+      "label": 1,
+      "score": 0.9667534828186035
+    },
+    {
+      "evidence": "Every person is entitled to freedom of thought, conscience and religion, including the freedom to ha",
+      "claim": "Freedom of thought can be restricted for national security.",
+      "label": 0,
+      "score": 0.004120809491723776
+    },
+    {
+      "evidence": "Every person is entitled to freedom of thought, conscience and religion, including the freedom to ha",
+      "claim": "Only citizens are entitled to freedom of religion.",
+      "label": 0,
+      "score": 0.0036461653653532267
+    },
+    {
+      "evidence": "The Official Language of Sri Lanka shall be Sinhala. Tamil shall also be an official language.",
+      "claim": "Sinhala and Tamil are both official languages of Sri Lanka.",
+      "label": 1,
+      "score": 0.9920458793640137
+    },
+    {
+      "evidence": "The Official Language of Sri Lanka shall be Sinhala. Tamil shall also be an official language.",
+      "claim": "Sinhala is an official language of Sri Lanka.",
+      "label": 1,
+      "score": 0.9597738981246948
+    },
+    {
+      "evidence": "The Official Language of Sri Lanka shall be Sinhala. Tamil shall also be an official language.",
+      "claim": "English is the official language of Sri Lanka.",
+      "label": 0,
+      "score": 0.0002203462936449796
+    },
+    {
+      "evidence": "The Official Language of Sri Lanka shall be Sinhala. Tamil shall also be an official language.",
+      "claim": "Only Sinhala is recognised as an official language.",
+      "label": 0,
+      "score": 0.010594712570309639
+    },
+    {
+      "evidence": "There shall be a President of the Republic of Sri Lanka, who is the Head of the State, the Head of t",
+      "claim": "The President holds office for a term of six years.",
+      "label": 1,
+      "score": 0.9921802282333374
+    },
+    {
+      "evidence": "There shall be a President of the Republic of Sri Lanka, who is the Head of the State, the Head of t",
+      "claim": "The President is elected directly by the people.",
+      "label": 1,
+      "score": 0.951444149017334
+    },
+    {
+      "evidence": "There shall be a President of the Republic of Sri Lanka, who is the Head of the State, the Head of t",
+      "claim": "The President holds office for a term of five years.",
+      "label": 0,
+      "score": 0.0221887044608593
+    },
+    {
+      "evidence": "There shall be a President of the Republic of Sri Lanka, who is the Head of the State, the Head of t",
+      "claim": "Parliament elects the President.",
+      "label": 0,
+      "score": 0.0025871586985886097
+    },
+    {
+      "evidence": "A Bill for the amendment of any provision of the Constitution shall, on the certificate of the Presi",
+      "claim": "Amending the Constitution requires a two-thirds majority of all Members of Parliament.",
+      "label": 1,
+      "score": 0.9679090976715088
+    },
+    {
+      "evidence": "A Bill for the amendment of any provision of the Constitution shall, on the certificate of the Presi",
+      "claim": "A constitutional amendment requires a simple majority in Parliament.",
+      "label": 0,
+      "score": 0.0005702663329429924
+    },
+    {
+      "evidence": "The President may, by Proclamation, dissolve Parliament after the expiration of one year from the da",
+      "claim": "The President can dissolve Parliament by Proclamation after it has met for at least one year.",
+      "label": 1,
+      "score": 0.9807963371276855
+    },
+    {
+      "evidence": "The President may, by Proclamation, dissolve Parliament after the expiration of one year from the da",
+      "claim": "Parliament can be dissolved by the Prime Minister.",
+      "label": 0,
+      "score": 0.007462253328412771
+    },
+    {
+      "evidence": "All revenues, loans raised by the Government of Sri Lanka and all other moneys received by the Gover",
+      "claim": "All government revenues and loans form the Consolidated Fund.",
+      "label": 1,
+      "score": 0.9910910129547119
+    },
+    {
+      "evidence": "All revenues, loans raised by the Government of Sri Lanka and all other moneys received by the Gover",
+      "claim": "The Consolidated Fund is managed by the Central Bank.",
+      "label": 0,
+      "score": 0.0008343028603121638
+    }
+  ]
+}

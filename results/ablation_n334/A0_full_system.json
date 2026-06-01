@@ -1,0 +1,17 @@
+{
+  "condition": "A0_full_system",
+  "description": "Full system (hybrid+rerank, all-mpnet bi-encoder)",
+  "n_items": 334,
+  "retrieval_only": true,
+  "article_level": true,
+  "retrieval": {
+    "recall@10_mean": 0.9211576846307385,
+    "recall@10_std": 0.22949101253895768,
+    "mrr_mean": 0.8319979089440169,
+    "mrr_std": 0.307987830373203,
+    "ndcg@10_mean": 0.8485352957896252,
+    "ndcg@10_std": 0.23844433480024949
+  },
+  "attribution": {},
+  "abstention": {}
+}

@@ -1,0 +1,149 @@
+{
+  "run_timestamp": "2026-05-30T01:56:20.978637Z",
+  "source_csv": "/Users/sarasiw/Edu/Masters/8. Research/9. Implementation/v2 claude/data/evaluation/qac_panel_review_all.csv",
+  "n_items": 75,
+  "item_range": "QAC_001\u2013QAC_075",
+  "n_reviewers": 5,
+  "reviewer_names": [
+    "Chathuri Madushika (LLB OUSL)",
+    "Rohana Dasanayaka (LLB OUSL)",
+    "Dulani Kulasooriya (LLB OUSL)",
+    "Dulshan Liyanaarachchi (LLB OUSL)",
+    "Inoshika Kodithuwakku (LLB OUSL)"
+  ],
+  "score_distribution": {
+    "4": 201,
+    "5": 924
+  },
+  "pair_results": [
+    {
+      "pair": "R1\u00d7R2",
+      "r1": "Chathuri Madushika (LLB OUSL)",
+      "r2": "Rohana Dasanayaka (LLB OUSL)",
+      "dimensions": {
+        "Correctness": 0.0,
+        "Completeness": 0.696,
+        "Clarity": NaN
+      },
+      "mean_kappa": NaN,
+      "interpretation": "Almost perfect"
+    },
+    {
+      "pair": "R1\u00d7R3",
+      "r1": "Chathuri Madushika (LLB OUSL)",
+      "r2": "Dulani Kulasooriya (LLB OUSL)",
+      "dimensions": {
+        "Correctness": 0.0,
+        "Completeness": 0.5516,
+        "Clarity": NaN
+      },
+      "mean_kappa": NaN,
+      "interpretation": "Almost perfect"
+    },
+    {
+      "pair": "R1\u00d7R4",
+      "r1": "Chathuri Madushika (LLB OUSL)",
+      "r2": "Dulshan Liyanaarachchi (LLB OUSL)",
+      "dimensions": {
+        "Correctness": 0.0,
+        "Completeness": 0.0061,
+        "Clarity": 0.0
+      },
+      "mean_kappa": 0.002,
+      "interpretation": "Slight"
+    },
+    {
+      "pair": "R1\u00d7R5",
+      "r1": "Chathuri Madushika (LLB OUSL)",
+      "r2": "Inoshika Kodithuwakku (LLB OUSL)",
+      "dimensions": {
+        "Correctness": 0.0,
+        "Completeness": 0.0,
+        "Clarity": NaN
+      },
+      "mean_kappa": NaN,
+      "interpretation": "Almost perfect"
+    },
+    {
+      "pair": "R2\u00d7R3",
+      "r1": "Rohana Dasanayaka (LLB OUSL)",
+      "r2": "Dulani Kulasooriya (LLB OUSL)",
+      "dimensions": {
+        "Correctness": -0.0331,
+        "Completeness": 0.3802,
+        "Clarity": NaN
+      },
+      "mean_kappa": NaN,
+      "interpretation": "Almost perfect"
+    },
+    {
+      "pair": "R2\u00d7R4",
+      "r1": "Rohana Dasanayaka (LLB OUSL)",
+      "r2": "Dulshan Liyanaarachchi (LLB OUSL)",
+      "dimensions": {
+        "Correctness": -0.0684,
+        "Completeness": -0.003,
+        "Clarity": 0.0
+      },
+      "mean_kappa": -0.0238,
+      "interpretation": "Poor"
+    },
+    {
+      "pair": "R2\u00d7R5",
+      "r1": "Rohana Dasanayaka (LLB OUSL)",
+      "r2": "Inoshika Kodithuwakku (LLB OUSL)",
+      "dimensions": {
+        "Correctness": -0.0618,
+        "Completeness": 0.0,
+        "Clarity": NaN
+      },
+      "mean_kappa": NaN,
+      "interpretation": "Almost perfect"
+    },
+    {
+      "pair": "R3\u00d7R4",
+      "r1": "Dulani Kulasooriya (LLB OUSL)",
+      "r2": "Dulshan Liyanaarachchi (LLB OUSL)",
+      "dimensions": {
+        "Correctness": 0.2515,
+        "Completeness": 0.004,
+        "Clarity": 0.0
+      },
+      "mean_kappa": 0.0852,
+      "interpretation": "Slight"
+    },
+    {
+      "pair": "R3\u00d7R5",
+      "r1": "Dulani Kulasooriya (LLB OUSL)",
+      "r2": "Inoshika Kodithuwakku (LLB OUSL)",
+      "dimensions": {
+        "Correctness": 0.1643,
+        "Completeness": 0.0,
+        "Clarity": NaN
+      },
+      "mean_kappa": NaN,
+      "interpretation": "Almost perfect"
+    },
+    {
+      "pair": "R4\u00d7R5",
+      "r1": "Dulshan Liyanaarachchi (LLB OUSL)",
+      "r2": "Inoshika Kodithuwakku (LLB OUSL)",
+      "dimensions": {
+        "Correctness": 0.1972,
+        "Completeness": 0.0,
+        "Clarity": 0.0
+      },
+      "mean_kappa": 0.0657,
+      "interpretation": "Slight"
+    }
+  ],
+  "aggregate": {
+    "mean_kappa_correctness": 0.045,
+    "mean_kappa_completeness": 0.1635,
+    "mean_kappa_clarity": NaN,
+    "mean_kappa_overall": NaN,
+    "interpretation": "Almost perfect",
+    "meets_target_0_75": false
+  },
+  "ceiling_effect_note": "Scores clustered 4\u20135 after rounding; \u03ba underestimates agreement. ICC(2,1) and MAD are primary agreement metrics (Section 6.3.4)."
+}

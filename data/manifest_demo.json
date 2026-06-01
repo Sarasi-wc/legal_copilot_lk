@@ -1,0 +1,25 @@
+{
+  "acts": [
+    {
+      "file_path": "data/raw/acts/constitution_1978.pdf",
+      "act_name": "Constitution of the Democratic Socialist Republic of Sri Lanka",
+      "short_name": "Constitution",
+      "year": 1978,
+      "domain": "constitutional",
+      "jurisdiction": "Sri Lanka",
+      "document_type": "act",
+      "source": "Parliament of Sri Lanka",
+      "description": "The supreme law of Sri Lanka"
+    }
+  ],
+  "metadata": {
+    "created_date": "2026-02-08T05:48:47.375456",
+    "updated_date": "2026-05-03T00:00:00.000000",
+    "purpose": "Demo corpus — Constitution of Sri Lanka only (focused demo for MSc research)",
+    "total_acts": 1,
+    "domains": [
+      "constitutional"
+    ],
+    "note": "Scoped to Constitution only for a stronger, more focused demonstration."
+  }
+}

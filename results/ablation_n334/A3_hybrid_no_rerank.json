@@ -1,0 +1,17 @@
+{
+  "condition": "A3_hybrid_no_rerank",
+  "description": "Hybrid without reranking — ablates cross-encoder",
+  "n_items": 334,
+  "retrieval_only": true,
+  "article_level": true,
+  "retrieval": {
+    "recall@10_mean": 0.9166666666666665,
+    "recall@10_std": 0.23876971760236299,
+    "mrr_mean": 0.7855012502467593,
+    "mrr_std": 0.3377601616305212,
+    "ndcg@10_mean": 0.8118870664502599,
+    "ndcg@10_std": 0.25746518906888927
+  },
+  "attribution": {},
+  "abstention": {}
+}

@@ -1,0 +1,1365 @@
+{
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "What is the official religion of Sri Lanka?",
+      "gold_article": "Article 9",
+      "topic": "religion/state"
+    },
+    {
+      "id": "Q02",
+      "question": "What are the fundamental rights guaranteed under the Constitution of Sri Lanka?",
+      "gold_article": "Articles 10-14",
+      "topic": "fundamental rights"
+    },
+    {
+      "id": "Q03",
+      "question": "How can Parliament be dissolved before the end of its term?",
+      "gold_article": "Article 70",
+      "topic": "parliament/dissolution"
+    },
+    {
+      "id": "Q04",
+      "question": "What are the qualifications to become President of Sri Lanka?",
+      "gold_article": "Article 91",
+      "topic": "executive/president"
+    },
+    {
+      "id": "Q05",
+      "question": "How is the Constitution of Sri Lanka amended?",
+      "gold_article": "Articles 82-83",
+      "topic": "constitutional amendment"
+    },
+    {
+      "id": "Q06",
+      "question": "What are the official languages of Sri Lanka under the Constitution?",
+      "gold_article": "Articles 18-19",
+      "topic": "official language"
+    },
+    {
+      "id": "Q07",
+      "question": "On what grounds can the President of Sri Lanka be removed from office?",
+      "gold_article": "Article 38",
+      "topic": "executive/removal"
+    },
+    {
+      "id": "Q08",
+      "question": "What is the jurisdiction of the Supreme Court of Sri Lanka?",
+      "gold_article": "Article 118",
+      "topic": "judiciary"
+    },
+    {
+      "id": "Q09",
+      "question": "What is the Consolidated Fund under the Constitution of Sri Lanka?",
+      "gold_article": "Article 148",
+      "topic": "finance"
+    },
+    {
+      "id": "Q10",
+      "question": "Can the freedom of thought and conscience be restricted under the Constitution?",
+      "gold_article": "Article 10",
+      "topic": "fundamental rights"
+    }
+  ],
+  "baseline_results": [
+    {
+      "id": "Q01",
+      "question": "What is the official religion of Sri Lanka?",
+      "gold_article": "Article 9",
+      "topic": "religion/state",
+      "answer": "The official religion of Sri Lanka is Buddhism.",
+      "abstained": false,
+      "citations": [],
+      "num_retrieved": 0,
+      "system": "no_rag_baseline"
+    },
+    {
+      "id": "Q02",
+      "question": "What are the fundamental rights guaranteed under the Constitution of Sri Lanka?",
+      "gold_article": "Articles 10-14",
+      "topic": "fundamental rights",
+      "answer": "The fundamental rights guaranteed under the Constitution of Sri Lanka include:\n\n1. Right to equality\n2. Right to freedom of speech, assembly, association, occupation, movement, and religion\n3. Right to non-discrimination\n4. Right to property\n5. Right to freedom from torture\n6. Right to freedom from arbitrary arrest and detention\n7. Right to access to information\n8. Right to privacy\n\nThese fundamental rights are enshrined in Chapter III of the Constitution of Sri Lanka and are considered to be the cornerstone of the legal system in Sri Lanka.",
+      "abstained": false,
+      "citations": [],
+      "num_retrieved": 0,
+      "system": "no_rag_baseline"
+    },
+    {
+      "id": "Q03",
+      "question": "How can Parliament be dissolved before the end of its term?",
+      "gold_article": "Article 70",
+      "topic": "parliament/dissolution",
+      "answer": "In Sri Lanka, Parliament can be dissolved before the end of its term in two ways:\n\n1. By the President: The President of Sri Lanka has the power to dissolve Parliament under certain circumstances. According to the Constitution of Sri Lanka, the President can dissolve Parliament after it has completed four and a half years of its five-year term. The President can dissolve Parliament earlier if a resolution for the dissolution of Parliament is passed by a two-thirds majority in Parliament.\n\n2. By a Vote of No Confidence: Parliament can also be dissolved if a vote of no confidence is passed against the government. If a motion of no confidence is passed by a majority of the members of Parliament, the President may dissolve Parliament and call for a general election.\n\nIt is important to note that the power to dissolve Parliament is subject to certain limitations and procedures outlined in the Constitution of Sri Lanka. It is advisable to consult with a legal expert or refer to the specific provisions of the Constitution for detailed information on the process of dissolving Parliament in Sri Lanka.",
+      "abstained": false,
+      "citations": [],
+      "num_retrieved": 0,
+      "system": "no_rag_baseline"
+    },
+    {
+      "id": "Q04",
+      "question": "What are the qualifications to become President of Sri Lanka?",
+      "gold_article": "Article 91",
+      "topic": "executive/president",
+      "answer": "To qualify to become the President of Sri Lanka, a person must meet the following criteria:\n\n1. Be a citizen of Sri Lanka.\n2. Be not less than 35 years of age.\n3. Be qualified to be an elector as per the provisions of the law relating to Parliamentary elections.\n4. Not be disqualified from being an elector under any law in force in Sri Lanka.\n\nThese qualifications are outlined in the Constitution of Sri Lanka, specifically in Article 31.",
+      "abstained": false,
+      "citations": [],
+      "num_retrieved": 0,
+      "system": "no_rag_baseline"
+    },
+    {
+      "id": "Q05",
+      "question": "How is the Constitution of Sri Lanka amended?",
+      "gold_article": "Articles 82-83",
+      "topic": "constitutional amendment",
+      "answer": "The Constitution of Sri Lanka can be amended through a process outlined in Article 82 of the Constitution. According to this article, an amendment to the Constitution can be proposed by a Member of Parliament and must be passed by a two-thirds majority in Parliament. \n\nAfter the amendment is passed by Parliament, it must be approved by the people at a referendum unless it falls within the limited exceptions specified in the Constitution where a referendum is not required. \n\nIt is important to note that certain provisions of the Constitution, such as those relating to the unitary status of the country, the sovereignty of the people, and the territorial integrity of Sri Lanka, cannot be amended under any circumstances. \n\nPlease consult with a legal professional or refer to the specific provisions of the Constitution for more detailed and up-to-date information on the amendment process.",
+      "abstained": false,
+      "citations": [],
+      "num_retrieved": 0,
+      "system": "no_rag_baseline"
+    },
+    {
+      "id": "Q06",
+      "question": "What are the official languages of Sri Lanka under the Constitution?",
+      "gold_article": "Articles 18-19",
+      "topic": "official language",
+      "answer": "Under the Constitution of Sri Lanka, the official languages of the country are Sinhala and Tamil. Both languages have equal status and are used for official and administrative purposes in the country. Additionally, English is also recognized as a link language in Sri Lanka.",
+      "abstained": false,
+      "citations": [],
+      "num_retrieved": 0,
+      "system": "no_rag_baseline"
+    },
+    {
+      "id": "Q07",
+      "question": "On what grounds can the President of Sri Lanka be removed from office?",
+      "gold_article": "Article 38",
+      "topic": "executive/removal",
+      "answer": "The President of Sri Lanka can be removed from office on the following grounds:\n\n1. Impeachment by Parliament for \"violation of the Constitution\" or \"gross misconduct\" - This process requires a resolution signed by not less than one-third of the total number of Members of Parliament (including the Speaker) alleging the grounds for impeachment. The resolution must then be referred to the Supreme Court for its opinion, and if the Supreme Court determines that the allegations are substantiated, Parliament can proceed with the impeachment process.\n\n2. Voluntary resignation by the President - The President can resign from office by submitting a written resignation to the Speaker of Parliament.\n\n3. Death or permanent incapacity of the President - In case of death or permanent incapacity of the President, the Speaker of Parliament will act as the Acting President until a new President is elected.\n\nIt is important to note that the process of removing the President from office in Sri Lanka is a complex and serious matter, and it is advisable to consult with legal experts for specific guidance and advice on this issue.",
+      "abstained": false,
+      "citations": [],
+      "num_retrieved": 0,
+      "system": "no_rag_baseline"
+    },
+    {
+      "id": "Q08",
+      "question": "What is the jurisdiction of the Supreme Court of Sri Lanka?",
+      "gold_article": "Article 118",
+      "topic": "judiciary",
+      "answer": "The Supreme Court of Sri Lanka has jurisdiction to hear and determine appeals from the Court of Appeal, as well as to hear and determine constitutional matters referred to it by the President of Sri Lanka. The Supreme Court also has the power to interpret the Constitution and to determine the constitutionality of laws and executive actions. Additionally, the Supreme Court has the authority to issue writs for the enforcement of fundamental rights guaranteed by the Constitution.",
+      "abstained": false,
+      "citations": [],
+      "num_retrieved": 0,
+      "system": "no_rag_baseline"
+    },
+    {
+      "id": "Q09",
+      "question": "What is the Consolidated Fund under the Constitution of Sri Lanka?",
+      "gold_article": "Article 148",
+      "topic": "finance",
+      "answer": "The Consolidated Fund is established under the Constitution of Sri Lanka and is the primary fund into which all revenues and receipts of the government are paid, and from which all government expenditures are made. It is governed by Article 148 of the Constitution of Sri Lanka. The Consolidated Fund ensures that government finances are managed transparently and accountably. It is an important aspect of financial management in Sri Lanka.",
+      "abstained": false,
+      "citations": [],
+      "num_retrieved": 0,
+      "system": "no_rag_baseline"
+    },
+    {
+      "id": "Q10",
+      "question": "Can the freedom of thought and conscience be restricted under the Constitution?",
+      "gold_article": "Article 10",
+      "topic": "fundamental rights",
+      "answer": "Under the Constitution of Sri Lanka, the freedom of thought and conscience is a fundamental right guaranteed to all citizens. This right is protected under Article 10 of the Constitution, which states that every person is entitled to freedom of thought, conscience, and religion. \n\nHowever, like all fundamental rights, the freedom of thought and conscience is not an absolute right and can be subject to certain restrictions. These restrictions must be prescribed by law and be necessary in a democratic society in the interests of national security, public order, or the protection of the rights and freedoms of others.\n\nTherefore, while the freedom of thought and conscience is generally protected under the Constitution, it can be restricted in certain circumstances as outlined above.",
+      "abstained": false,
+      "citations": [],
+      "num_retrieved": 0,
+      "system": "no_rag_baseline"
+    }
+  ],
+  "rag_results": [
+    {
+      "id": "Q01",
+      "question": "What is the official religion of Sri Lanka?",
+      "gold_article": "Article 9",
+      "topic": "religion/state",
+      "answer": "\"Article 9 mandates that 'the Republic of Sri Lanka shall give to Buddhism the foremost place' and it is the duty of the State to protect and foster the Buddha Sasana, while assuring the rights of all religions as granted by Articles 10 and 14(1)(e) [Constitution, Article 9].\"",
+      "abstained": false,
+      "abstention_reason": null,
+      "citations": [
+        {
+          "act_name": "Constitution",
+          "section": "9",
+          "has_matching_evidence": true,
+          "passage_id": "ACT__1978_SEC_9"
+        }
+      ],
+      "num_retrieved": 10,
+      "verification_report": {
+        "verified": true,
+        "verification_passed": true,
+        "faithfulness": {
+          "is_faithful": true,
+          "faithfulness_score": 1.0,
+          "total_claims": 1,
+          "entailed_claims": 1,
+          "hallucinations": [],
+          "claim_results": [
+            {
+              "claim": "\"Article 9 mandates that 'the Republic of Sri Lanka shall give to Buddhism the foremost place' and it is the duty of the State to protect and foster the Buddha Sasana, while assuring the rights of all religions as granted by Articles 10 and 14(1)(e)",
+              "is_entailed": true,
+              "max_entailment_score": 0.930077075958252,
+              "nli_score": 0.930077075958252,
+              "overlap_score": 0.16666666666666666,
+              "supporting_passage": "ACT__1978_SEC_9",
+              "verification_method": "nli"
+            }
+          ]
+        },
+        "citation_validation": {
+          "total_citations": 1,
+          "valid_citations": 1,
+          "fabricated_citations": [],
+          "validation_rate": 1.0,
+          "all_valid": true,
+          "citation_details": [
+            {
+              "citation": "[Constitution, Article 9]",
+              "act_name": "Constitution",
+              "section": "9",
+              "is_valid": true,
+              "is_fabricated": false,
+              "matching_passage_id": "ACT__1978_SEC_9"
+            }
+          ]
+        },
+        "citation_coverage": {
+          "num_citations": 1,
+          "num_passages": 2,
+          "citation_density": 1.0,
+          "adequate_coverage": true
+        },
+        "citation_formatting": {
+          "total_bracket_citations": 1,
+          "correctly_formatted": 1,
+          "malformed_citations": [],
+          "all_properly_formatted": true
+        },
+        "issues": []
+      },
+      "system": "rag_pipeline"
+    },
+    {
+      "id": "Q02",
+      "question": "What are the fundamental rights guaranteed under the Constitution of Sri Lanka?",
+      "gold_article": "Articles 10-14",
+      "topic": "fundamental rights",
+      "answer": "Article 13 of the Constitution of the Democratic Socialist Republic of Sri Lanka guarantees several fundamental rights. These include the right to freedom from torture, the right to equality, the right to freedom of thought, conscience, and religion, the right to freedom from arbitrary arrest, detention, and punishment, and the right to freedom of speech and expression [Constitution, Article 13].",
+      "abstained": false,
+      "abstention_reason": null,
+      "citations": [
+        {
+          "act_name": "Constitution",
+          "section": "13",
+          "has_matching_evidence": true,
+          "passage_id": "ACT__1978_SEC_13"
+        }
+      ],
+      "num_retrieved": 10,
+      "verification_report": {
+        "verified": true,
+        "verification_passed": false,
+        "faithfulness": {
+          "is_faithful": false,
+          "faithfulness_score": 0.5,
+          "total_claims": 2,
+          "entailed_claims": 1,
+          "hallucinations": [
+            "These include the right to freedom from torture, the right to equality, the right to freedom of thought, conscience, and religion, the right to freedom from arbitrary arrest, detention, and punishment, and the right to freedom of speech and expression"
+          ],
+          "claim_results": [
+            {
+              "claim": "Article 13 of the Constitution of the Democratic Socialist Republic of Sri Lanka guarantees several fundamental rights",
+              "is_entailed": true,
+              "max_entailment_score": 0.5454545454545454,
+              "nli_score": 0.0,
+              "overlap_score": 0.5454545454545454,
+              "supporting_passage": "ACT__1978_SEC_13",
+              "verification_method": "lexical_overlap"
+            },
+            {
+              "claim": "These include the right to freedom from torture, the right to equality, the right to freedom of thought, conscience, and religion, the right to freedom from arbitrary arrest, detention, and punishment, and the right to freedom of speech and expression",
+              "is_entailed": false,
+              "max_entailment_score": 0.0,
+              "nli_score": 0.0,
+              "overlap_score": 0.0,
+              "supporting_passage": null,
+              "verification_method": "nli"
+            }
+          ]
+        },
+        "citation_validation": {
+          "total_citations": 1,
+          "valid_citations": 1,
+          "fabricated_citations": [],
+          "validation_rate": 1.0,
+          "all_valid": true,
+          "citation_details": [
+            {
+              "citation": "[Constitution, Article 13]",
+              "act_name": "Constitution",
+              "section": "13",
+              "is_valid": true,
+              "is_fabricated": false,
+              "matching_passage_id": "ACT__1978_SEC_13"
+            }
+          ]
+        },
+        "citation_coverage": {
+          "num_citations": 1,
+          "num_passages": 1,
+          "citation_density": 0.5,
+          "adequate_coverage": true
+        },
+        "citation_formatting": {
+          "total_bracket_citations": 1,
+          "correctly_formatted": 1,
+          "malformed_citations": [],
+          "all_properly_formatted": true
+        },
+        "issues": [
+          "Low faithfulness score: 50.00%",
+          "Hallucinations detected: 1 claims"
+        ]
+      },
+      "system": "rag_pipeline"
+    },
+    {
+      "id": "Q03",
+      "question": "How can Parliament be dissolved before the end of its term?",
+      "gold_article": "Article 70",
+      "topic": "parliament/dissolution",
+      "answer": "Parliament can be dissolved before the end of its term under specific circumstances outlined in the Constitution of the Democratic Socialist Republic of Sri Lanka. According to [Constitution, Article 69], the President has the authority to summon, prorogue, and dissolve Parliament. However, there are limitations on this power. The President shall not dissolve Parliament until the expiration of a period of not less than two years and six months from the date appointed for its first meeting, unless Parliament by resolution requests the President to dissolve Parliament. Additionally, the President shall not dissolve Parliament after the Speaker has entertained a resolution complying with certain requirements unless certain conditions are met, such as the resolution not being passed as required by the Constitution or the Supreme Court determining that the President has not become permanently incapable of discharging the functions of his office or has not been guilty of the allegations contained in the resolution.",
+      "abstained": false,
+      "abstention_reason": null,
+      "citations": [
+        {
+          "act_name": "Constitution",
+          "section": "69",
+          "has_matching_evidence": true,
+          "passage_id": "ACT__1978_SEC_69_CHUNK_1"
+        }
+      ],
+      "num_retrieved": 10,
+      "verification_report": {
+        "verified": true,
+        "verification_passed": false,
+        "faithfulness": {
+          "is_faithful": true,
+          "faithfulness_score": 1.0,
+          "total_claims": 5,
+          "entailed_claims": 5,
+          "hallucinations": [],
+          "claim_results": [
+            {
+              "claim": "Parliament can be dissolved before the end of its term under specific circumstances outlined in the Constitution of the Democratic Socialist Republic of Sri Lanka",
+              "is_entailed": true,
+              "max_entailment_score": 0.4765917658805847,
+              "nli_score": 0.4765917658805847,
+              "overlap_score": 0.47058823529411764,
+              "supporting_passage": "ACT__1978_SEC_64_SUBSEC_1_CHUNK_0",
+              "verification_method": "nli"
+            },
+            {
+              "claim": "According to , the President has the authority to summon, prorogue, and dissolve Parliament",
+              "is_entailed": true,
+              "max_entailment_score": 0.48018819093704224,
+              "nli_score": 0.48018819093704224,
+              "overlap_score": 0.2857142857142857,
+              "supporting_passage": "ACT__1978_SEC_64_CHUNK_0",
+              "verification_method": "nli"
+            },
+            {
+              "claim": "However, there are limitations on this power",
+              "is_entailed": true,
+              "max_entailment_score": 0.42605060338974,
+              "nli_score": 0.42605060338974,
+              "overlap_score": 0.0,
+              "supporting_passage": "ACT__1978_SEC_6",
+              "verification_method": "nli"
+            },
+            {
+              "claim": "The President shall not dissolve Parliament until the expiration of a period of not less than two years and six months from the date appointed for its first meeting, unless Parliament by resolution requests the President to dissolve Parliament",
+              "is_entailed": true,
+              "max_entailment_score": 1.0,
+              "nli_score": 0.0,
+              "overlap_score": 1.0,
+              "supporting_passage": "ACT__1978_SEC_69_CHUNK_1",
+              "verification_method": "lexical_overlap"
+            },
+            {
+              "claim": "Additionally, the President shall not dissolve Parliament after the Speaker has entertained a resolution complying with certain requirements unless certain conditions are met, such as the resolution not being passed as required by the Constitution or the Supreme Court determining that the President has not become permanently incapable of discharging the functions of his office or has not been guilty of the allegations contained in the resolution",
+              "is_entailed": true,
+              "max_entailment_score": 0.84375,
+              "nli_score": 0.0,
+              "overlap_score": 0.84375,
+              "supporting_passage": "ACT__1978_SEC_69_CHUNK_1",
+              "verification_method": "lexical_overlap"
+            }
+          ]
+        },
+        "citation_validation": {
+          "total_citations": 1,
+          "valid_citations": 1,
+          "fabricated_citations": [],
+          "validation_rate": 1.0,
+          "all_valid": true,
+          "citation_details": [
+            {
+              "citation": "[Constitution, Article 69]",
+              "act_name": "Constitution",
+              "section": "69",
+              "is_valid": true,
+              "is_fabricated": false,
+              "matching_passage_id": "ACT__1978_SEC_12_CHUNK_2"
+            }
+          ]
+        },
+        "citation_coverage": {
+          "num_citations": 1,
+          "num_passages": 5,
+          "citation_density": 0.2,
+          "adequate_coverage": false
+        },
+        "citation_formatting": {
+          "total_bracket_citations": 1,
+          "correctly_formatted": 1,
+          "malformed_citations": [],
+          "all_properly_formatted": true
+        },
+        "issues": [
+          "Low citation coverage: 20.00%"
+        ]
+      },
+      "system": "rag_pipeline"
+    },
+    {
+      "id": "Q04",
+      "question": "What are the qualifications to become President of Sri Lanka?",
+      "gold_article": "Article 91",
+      "topic": "executive/president",
+      "answer": "To become President of Sri Lanka, a person must meet certain qualifications as outlined in the Constitution. According to [Constitution, Article 92], a person qualified to be an elector can be elected as President unless they are subject to specific disqualifications. These disqualifications include not having attained the age of thirty years, not being qualified to be elected as a Member of Parliament under certain conditions, having been twice elected to the office of President by the People, or having been removed from the office of President under certain provisions. Additionally, if the office of President becomes vacant before the term expires, Parliament will elect a qualified Member to succeed the President, who will hold office for the unexpired period of the term [Constitution, Article 40].",
+      "abstained": false,
+      "abstention_reason": null,
+      "citations": [
+        {
+          "act_name": "Constitution",
+          "section": "92",
+          "has_matching_evidence": true,
+          "passage_id": "ACT__1978_SEC_92"
+        },
+        {
+          "act_name": "Constitution",
+          "section": "40",
+          "has_matching_evidence": true,
+          "passage_id": "ACT__1978_SEC_40_CHUNK_0"
+        }
+      ],
+      "num_retrieved": 10,
+      "verification_report": {
+        "verified": true,
+        "verification_passed": true,
+        "faithfulness": {
+          "is_faithful": true,
+          "faithfulness_score": 1.0,
+          "total_claims": 4,
+          "entailed_claims": 4,
+          "hallucinations": [],
+          "claim_results": [
+            {
+              "claim": "To become President of Sri Lanka, a person must meet certain qualifications as outlined in the Constitution",
+              "is_entailed": true,
+              "max_entailment_score": 0.45454545454545453,
+              "nli_score": 0.3784683048725128,
+              "overlap_score": 0.45454545454545453,
+              "supporting_passage": "ACT__1978_SEC_4",
+              "verification_method": "nli"
+            },
+            {
+              "claim": "According to , a person qualified to be an elector can be elected as President unless they are subject to specific disqualifications",
+              "is_entailed": true,
+              "max_entailment_score": 0.6666666666666666,
+              "nli_score": 0.4717845320701599,
+              "overlap_score": 0.6666666666666666,
+              "supporting_passage": "ACT__1978_SEC_4",
+              "verification_method": "nli"
+            },
+            {
+              "claim": "These disqualifications include not having attained the age of thirty years, not being qualified to be elected as a Member of Parliament under certain conditions, having been twice elected to the office of President by the People, or having been removed from the office of President under certain provisions",
+              "is_entailed": true,
+              "max_entailment_score": 0.6666666666666666,
+              "nli_score": 0.6547243595123291,
+              "overlap_score": 0.6666666666666666,
+              "supporting_passage": "ACT__1978_SEC_4",
+              "verification_method": "nli"
+            },
+            {
+              "claim": "Additionally, if the office of President becomes vacant before the term expires, Parliament will elect a qualified Member to succeed the President, who will hold office for the unexpired period of the term",
+              "is_entailed": true,
+              "max_entailment_score": 0.5378109812736511,
+              "nli_score": 0.5378109812736511,
+              "overlap_score": 0.3333333333333333,
+              "supporting_passage": "ACT__1978_SEC_4",
+              "verification_method": "nli"
+            }
+          ]
+        },
+        "citation_validation": {
+          "total_citations": 2,
+          "valid_citations": 2,
+          "fabricated_citations": [],
+          "validation_rate": 1.0,
+          "all_valid": true,
+          "citation_details": [
+            {
+              "citation": "[Constitution, Article 92]",
+              "act_name": "Constitution",
+              "section": "92",
+              "is_valid": true,
+              "is_fabricated": false,
+              "matching_passage_id": "ACT__1978_SEC_30"
+            },
+            {
+              "citation": "[Constitution, Article 40]",
+              "act_name": "Constitution",
+              "section": "40",
+              "is_valid": true,
+              "is_fabricated": false,
+              "matching_passage_id": "ACT__1978_SEC_30"
+            }
+          ]
+        },
+        "citation_coverage": {
+          "num_citations": 2,
+          "num_passages": 6,
+          "citation_density": 0.5,
+          "adequate_coverage": true
+        },
+        "citation_formatting": {
+          "total_bracket_citations": 2,
+          "correctly_formatted": 2,
+          "malformed_citations": [],
+          "all_properly_formatted": true
+        },
+        "issues": []
+      },
+      "system": "rag_pipeline"
+    },
+    {
+      "id": "Q05",
+      "question": "How is the Constitution of Sri Lanka amended?",
+      "gold_article": "Articles 82-83",
+      "topic": "constitutional amendment",
+      "answer": "A Bill for the amendment of any provision of the Constitution or for the repeal and replacement of the Constitution shall become law if the number of votes cast in favor thereof amounts to not less than two-thirds of the whole number of Members and upon a certificate by the President or the Speaker being endorsed thereon in accordance with the provisions of Article 80 or 79 [Constitution, Text]. No provision in any law shall amend, repeal, or replace the Constitution or any provision thereof unless enacted in accordance with the requirements of the preceding provisions of this Article [Constitution, Text]. In this Chapter, amendment includes repeal, alteration, and addition [Constitution, Text].",
+      "abstained": false,
+      "abstention_reason": null,
+      "citations": [
+        {
+          "act_name": "Constitution",
+          "section": "Text",
+          "has_matching_evidence": true,
+          "passage_id": "ACT__1978_SEC_82_SUBSEC_1_CHUNK_1"
+        },
+        {
+          "act_name": "Constitution",
+          "section": "Text",
+          "has_matching_evidence": true,
+          "passage_id": "ACT__1978_SEC_82_SUBSEC_1_CHUNK_1"
+        },
+        {
+          "act_name": "Constitution",
+          "section": "Text",
+          "has_matching_evidence": true,
+          "passage_id": "ACT__1978_SEC_82_SUBSEC_1_CHUNK_1"
+        }
+      ],
+      "num_retrieved": 10,
+      "verification_report": {
+        "verified": true,
+        "verification_passed": false,
+        "faithfulness": {
+          "is_faithful": true,
+          "faithfulness_score": 1.0,
+          "total_claims": 3,
+          "entailed_claims": 3,
+          "hallucinations": [],
+          "claim_results": [
+            {
+              "claim": "A Bill for the amendment of any provision of the Constitution or for the repeal and replacement of the Constitution shall become law if the number of votes cast in favor thereof amounts to not less than two-thirds of the whole number of Members and upon a certificate by the President or the Speaker being endorsed thereon in accordance with the provisions of Article 80 or 79",
+              "is_entailed": true,
+              "max_entailment_score": 0.9333333333333333,
+              "nli_score": 0.540578305721283,
+              "overlap_score": 0.9333333333333333,
+              "supporting_passage": "ACT__1978_SEC_75",
+              "verification_method": "nli"
+            },
+            {
+              "claim": "No provision in any law shall amend, repeal, or replace the Constitution or any provision thereof unless enacted in accordance with the requirements of the preceding provisions of this Article",
+              "is_entailed": true,
+              "max_entailment_score": 1.0,
+              "nli_score": 0.4223957061767578,
+              "overlap_score": 1.0,
+              "supporting_passage": "ACT__1978_SEC_91_SUBSEC_2",
+              "verification_method": "nli"
+            },
+            {
+              "claim": "In this Chapter, amendment includes repeal, alteration, and addition",
+              "is_entailed": true,
+              "max_entailment_score": 0.6666666666666666,
+              "nli_score": 0.4194778800010681,
+              "overlap_score": 0.6666666666666666,
+              "supporting_passage": "ACT__1978_SEC_6",
+              "verification_method": "nli"
+            }
+          ]
+        },
+        "citation_validation": {
+          "total_citations": 0,
+          "valid_citations": 0,
+          "fabricated_citations": [],
+          "validation_rate": 0.0,
+          "all_valid": false,
+          "citation_details": []
+        },
+        "citation_coverage": {
+          "num_citations": 0,
+          "num_passages": 7,
+          "citation_density": 0.0,
+          "adequate_coverage": false
+        },
+        "citation_formatting": {
+          "total_bracket_citations": 3,
+          "correctly_formatted": 0,
+          "malformed_citations": [
+            "[Constitution, Text]",
+            "[Constitution, Text]",
+            "[Constitution, Text]"
+          ],
+          "all_properly_formatted": false
+        },
+        "issues": [
+          "Fabricated citations: 0",
+          "Low citation coverage: 0.00%",
+          "Malformed citations: 3"
+        ]
+      },
+      "system": "rag_pipeline"
+    },
+    {
+      "id": "Q06",
+      "question": "What are the official languages of Sri Lanka under the Constitution?",
+      "gold_article": "Articles 18-19",
+      "topic": "official language",
+      "answer": "Under the Constitution of the Democratic Socialist Republic of Sri Lanka, \"the Official Language of Sri Lanka shall be Sinhala\" with Tamil also being recognized as an official language alongside English as the link language [Constitution, Article 17]. Additionally, the National Languages of Sri Lanka are specified as Sinhala and Tamil [Constitution, Article 19]. The Constitution further establishes that Sinhala and Tamil are the languages of administration throughout Sri Lanka, with Sinhala being the language of administration for most provinces, except for the Northern and Eastern Provinces where Tamil is used [Constitution, Article 22].",
+      "abstained": false,
+      "abstention_reason": null,
+      "citations": [
+        {
+          "act_name": "Constitution",
+          "section": "17",
+          "has_matching_evidence": true,
+          "passage_id": "ACT__1978_SEC_17"
+        },
+        {
+          "act_name": "Constitution",
+          "section": "19",
+          "has_matching_evidence": true,
+          "passage_id": "ACT__1978_SEC_19"
+        },
+        {
+          "act_name": "Constitution",
+          "section": "22",
+          "has_matching_evidence": true,
+          "passage_id": "ACT__1978_SEC_22"
+        }
+      ],
+      "num_retrieved": 10,
+      "verification_report": {
+        "verified": true,
+        "verification_passed": true,
+        "faithfulness": {
+          "is_faithful": true,
+          "faithfulness_score": 1.0,
+          "total_claims": 3,
+          "entailed_claims": 3,
+          "hallucinations": [],
+          "claim_results": [
+            {
+              "claim": "Under the Constitution of the Democratic Socialist Republic of Sri Lanka, \"the Official Language of Sri Lanka shall be Sinhala\" with Tamil also being recognized as an official language alongside English as the link language",
+              "is_entailed": true,
+              "max_entailment_score": 0.7370249032974243,
+              "nli_score": 0.7370249032974243,
+              "overlap_score": 0.7222222222222222,
+              "supporting_passage": "ACT__1978_SEC_19",
+              "verification_method": "nli"
+            },
+            {
+              "claim": "Additionally, the National Languages of Sri Lanka are specified as Sinhala and Tamil",
+              "is_entailed": true,
+              "max_entailment_score": 0.9792532920837402,
+              "nli_score": 0.9792532920837402,
+              "overlap_score": 0.5,
+              "supporting_passage": "ACT__1978_SEC_19",
+              "verification_method": "nli"
+            },
+            {
+              "claim": "The Constitution further establishes that Sinhala and Tamil are the languages of administration throughout Sri Lanka, with Sinhala being the language of administration for most provinces, except for the Northern and Eastern Provinces where Tamil is used",
+              "is_entailed": true,
+              "max_entailment_score": 0.9090569019317627,
+              "nli_score": 0.9090569019317627,
+              "overlap_score": 0.6842105263157895,
+              "supporting_passage": "ACT__1978_SEC_19",
+              "verification_method": "nli"
+            }
+          ]
+        },
+        "citation_validation": {
+          "total_citations": 3,
+          "valid_citations": 3,
+          "fabricated_citations": [],
+          "validation_rate": 1.0,
+          "all_valid": true,
+          "citation_details": [
+            {
+              "citation": "[Constitution, Article 17]",
+              "act_name": "Constitution",
+              "section": "17",
+              "is_valid": true,
+              "is_fabricated": false,
+              "matching_passage_id": "ACT__1978_SEC_17"
+            },
+            {
+              "citation": "[Constitution, Article 19]",
+              "act_name": "Constitution",
+              "section": "19",
+              "is_valid": true,
+              "is_fabricated": false,
+              "matching_passage_id": "ACT__1978_SEC_17"
+            },
+            {
+              "citation": "[Constitution, Article 22]",
+              "act_name": "Constitution",
+              "section": "22",
+              "is_valid": true,
+              "is_fabricated": false,
+              "matching_passage_id": "ACT__1978_SEC_17"
+            }
+          ]
+        },
+        "citation_coverage": {
+          "num_citations": 3,
+          "num_passages": 7,
+          "citation_density": 1.0,
+          "adequate_coverage": true
+        },
+        "citation_formatting": {
+          "total_bracket_citations": 3,
+          "correctly_formatted": 3,
+          "malformed_citations": [],
+          "all_properly_formatted": true
+        },
+        "issues": []
+      },
+      "system": "rag_pipeline"
+    },
+    {
+      "id": "Q07",
+      "question": "On what grounds can the President of Sri Lanka be removed from office?",
+      "gold_article": "Article 38",
+      "topic": "executive/removal",
+      "answer": "The President of Sri Lanka can be removed from office on several grounds as per the Constitution of the Democratic Socialist Republic of Sri Lanka. The grounds for the removal of the President include:\n\n1. Death of the President [Constitution, Article 38].\n2. Resignation of the President by a writing under his hand addressed to the Speaker [Constitution, Article 38].\n3. Ceasing to be a citizen of Sri Lanka [Constitution, Article 38].\n4. Willful failure of the person elected as President to assume office within two weeks from the date of commencement of his term of office [Constitution, Article 38].\n5. Removal from office as provided in the Constitution [Constitution, Article 38].\n6. Determination by the Supreme Court that the President's election was void and no other person was duly elected as President [Constitution, Article 38].\n7. Permanent incapability of the President to discharge the functions of his office due to mental or physical infirmity or other allegations, as determined by the Supreme Court and resolved by Parliament with a two-thirds majority [Constitution, Article 3].",
+      "abstained": false,
+      "abstention_reason": null,
+      "citations": [
+        {
+          "act_name": "Constitution",
+          "section": "38",
+          "has_matching_evidence": true,
+          "passage_id": "ACT__1978_SEC_38"
+        },
+        {
+          "act_name": "Constitution",
+          "section": "38",
+          "has_matching_evidence": true,
+          "passage_id": "ACT__1978_SEC_38"
+        },
+        {
+          "act_name": "Constitution",
+          "section": "38",
+          "has_matching_evidence": true,
+          "passage_id": "ACT__1978_SEC_38"
+        },
+        {
+          "act_name": "Constitution",
+          "section": "38",
+          "has_matching_evidence": true,
+          "passage_id": "ACT__1978_SEC_38"
+        },
+        {
+          "act_name": "Constitution",
+          "section": "38",
+          "has_matching_evidence": true,
+          "passage_id": "ACT__1978_SEC_38"
+        },
+        {
+          "act_name": "Constitution",
+          "section": "38",
+          "has_matching_evidence": true,
+          "passage_id": "ACT__1978_SEC_38"
+        },
+        {
+          "act_name": "Constitution",
+          "section": "3",
+          "has_matching_evidence": true,
+          "passage_id": "ACT__1978_SEC_3_CHUNK_1"
+        }
+      ],
+      "num_retrieved": 10,
+      "verification_report": {
+        "verified": true,
+        "verification_passed": true,
+        "faithfulness": {
+          "is_faithful": true,
+          "faithfulness_score": 1.0,
+          "total_claims": 9,
+          "entailed_claims": 9,
+          "hallucinations": [],
+          "claim_results": [
+            {
+              "claim": "The President of Sri Lanka can be removed from office on several grounds as per the Constitution of the Democratic Socialist Republic of Sri Lanka",
+              "is_entailed": true,
+              "max_entailment_score": 0.6153846153846154,
+              "nli_score": 0.36945807933807373,
+              "overlap_score": 0.6153846153846154,
+              "supporting_passage": "ACT__1978_SEC_48_SUBSEC_1_CHUNK_1",
+              "verification_method": "lexical_overlap"
+            },
+            {
+              "claim": "The grounds for the removal of the President include:\n\n1",
+              "is_entailed": true,
+              "max_entailment_score": 0.5,
+              "nli_score": 0.3723812401294708,
+              "overlap_score": 0.5,
+              "supporting_passage": "ACT__1978_SEC_48_SUBSEC_1_CHUNK_1",
+              "verification_method": "lexical_overlap"
+            },
+            {
+              "claim": "Death of the President",
+              "is_entailed": true,
+              "max_entailment_score": 0.5,
+              "nli_score": 0.4907955527305603,
+              "overlap_score": 0.5,
+              "supporting_passage": "ACT__1978_SEC_3_CHUNK_1",
+              "verification_method": "nli"
+            },
+            {
+              "claim": "Resignation of the President by a writing under his hand addressed to the Speaker",
+              "is_entailed": true,
+              "max_entailment_score": 0.75,
+              "nli_score": 0.3870997726917267,
+              "overlap_score": 0.75,
+              "supporting_passage": "ACT__1978_SEC_38",
+              "verification_method": "lexical_overlap"
+            },
+            {
+              "claim": "Ceasing to be a citizen of Sri Lanka",
+              "is_entailed": true,
+              "max_entailment_score": 0.5,
+              "nli_score": 0.4755048155784607,
+              "overlap_score": 0.5,
+              "supporting_passage": "ACT__1978_SEC_38",
+              "verification_method": "lexical_overlap"
+            },
+            {
+              "claim": "Willful failure of the person elected as President to assume office within two weeks from the date of commencement of his term of office",
+              "is_entailed": true,
+              "max_entailment_score": 0.7142857142857143,
+              "nli_score": 0.4045194387435913,
+              "overlap_score": 0.7142857142857143,
+              "supporting_passage": "ACT__1978_SEC_38",
+              "verification_method": "lexical_overlap"
+            },
+            {
+              "claim": "Removal from office as provided in the Constitution",
+              "is_entailed": true,
+              "max_entailment_score": 0.75,
+              "nli_score": 0.4962944984436035,
+              "overlap_score": 0.75,
+              "supporting_passage": "ACT__1978_SEC_3_CHUNK_1",
+              "verification_method": "nli"
+            },
+            {
+              "claim": "Determination by the Supreme Court that the President's election was void and no other person was duly elected as President",
+              "is_entailed": true,
+              "max_entailment_score": 0.8181818181818182,
+              "nli_score": 0.4847581088542938,
+              "overlap_score": 0.8181818181818182,
+              "supporting_passage": "ACT__1978_SEC_38",
+              "verification_method": "lexical_overlap"
+            },
+            {
+              "claim": "Permanent incapability of the President to discharge the functions of his office due to mental or physical infirmity or other allegations, as determined by the Supreme Court and resolved by Parliament with a two-thirds majority",
+              "is_entailed": true,
+              "max_entailment_score": 0.65,
+              "nli_score": 0.5995204448699951,
+              "overlap_score": 0.65,
+              "supporting_passage": "ACT__1978_SEC_3_CHUNK_1",
+              "verification_method": "lexical_overlap"
+            }
+          ]
+        },
+        "citation_validation": {
+          "total_citations": 7,
+          "valid_citations": 7,
+          "fabricated_citations": [],
+          "validation_rate": 1.0,
+          "all_valid": true,
+          "citation_details": [
+            {
+              "citation": "[Constitution, Article 38]",
+              "act_name": "Constitution",
+              "section": "38",
+              "is_valid": true,
+              "is_fabricated": false,
+              "matching_passage_id": "ACT__1978_SEC_30_SUBSEC_1"
+            },
+            {
+              "citation": "[Constitution, Article 38]",
+              "act_name": "Constitution",
+              "section": "38",
+              "is_valid": true,
+              "is_fabricated": false,
+              "matching_passage_id": "ACT__1978_SEC_30_SUBSEC_1"
+            },
+            {
+              "citation": "[Constitution, Article 38]",
+              "act_name": "Constitution",
+              "section": "38",
+              "is_valid": true,
+              "is_fabricated": false,
+              "matching_passage_id": "ACT__1978_SEC_30_SUBSEC_1"
+            },
+            {
+              "citation": "[Constitution, Article 38]",
+              "act_name": "Constitution",
+              "section": "38",
+              "is_valid": true,
+              "is_fabricated": false,
+              "matching_passage_id": "ACT__1978_SEC_30_SUBSEC_1"
+            },
+            {
+              "citation": "[Constitution, Article 38]",
+              "act_name": "Constitution",
+              "section": "38",
+              "is_valid": true,
+              "is_fabricated": false,
+              "matching_passage_id": "ACT__1978_SEC_30_SUBSEC_1"
+            },
+            {
+              "citation": "[Constitution, Article 38]",
+              "act_name": "Constitution",
+              "section": "38",
+              "is_valid": true,
+              "is_fabricated": false,
+              "matching_passage_id": "ACT__1978_SEC_30_SUBSEC_1"
+            },
+            {
+              "citation": "[Constitution, Article 3]",
+              "act_name": "Constitution",
+              "section": "3",
+              "is_valid": true,
+              "is_fabricated": false,
+              "matching_passage_id": "ACT__1978_SEC_30_SUBSEC_1"
+            }
+          ]
+        },
+        "citation_coverage": {
+          "num_citations": 7,
+          "num_passages": 7,
+          "citation_density": 0.7777777777777778,
+          "adequate_coverage": true
+        },
+        "citation_formatting": {
+          "total_bracket_citations": 7,
+          "correctly_formatted": 7,
+          "malformed_citations": [],
+          "all_properly_formatted": true
+        },
+        "issues": []
+      },
+      "system": "rag_pipeline"
+    },
+    {
+      "id": "Q08",
+      "question": "What is the jurisdiction of the Supreme Court of Sri Lanka?",
+      "gold_article": "Article 118",
+      "topic": "judiciary",
+      "answer": "The jurisdiction of the Supreme Court of Sri Lanka includes several key aspects as outlined in the Constitution. Firstly, the Supreme Court shall have jurisdiction in respect of constitutional matters, protection of fundamental rights, final appellate jurisdiction, consultative jurisdiction, jurisdiction in election petitions, jurisdiction in respect of any breach of the privileges of Parliament, and jurisdiction in respect of other matters as may be vested by Parliament [Constitution, Article 118]. Additionally, the Supreme Court has the exclusive jurisdiction to hear and determine any question relating to the interpretation of the Constitution, with the power to refer such questions arising in other courts or tribunals for determination [Constitution, Article 125]. Furthermore, the Supreme Court's jurisdiction is ordinarily exercised at Colombo, with the Chief Justice having the authority to direct the Court's jurisdiction and sittings as necessary, including the option to have matters heard by a Bench comprising five or more Judges for cases of general and public importance [Constitution, Article 132].",
+      "abstained": false,
+      "abstention_reason": null,
+      "citations": [
+        {
+          "act_name": "Constitution",
+          "section": "118",
+          "has_matching_evidence": true,
+          "passage_id": "ACT__1978_SEC_118"
+        },
+        {
+          "act_name": "Constitution",
+          "section": "125",
+          "has_matching_evidence": true,
+          "passage_id": "ACT__1978_SEC_125"
+        },
+        {
+          "act_name": "Constitution",
+          "section": "132",
+          "has_matching_evidence": true,
+          "passage_id": "ACT__1978_SEC_132"
+        }
+      ],
+      "num_retrieved": 10,
+      "verification_report": {
+        "verified": true,
+        "verification_passed": true,
+        "faithfulness": {
+          "is_faithful": true,
+          "faithfulness_score": 1.0,
+          "total_claims": 4,
+          "entailed_claims": 4,
+          "hallucinations": [],
+          "claim_results": [
+            {
+              "claim": "The jurisdiction of the Supreme Court of Sri Lanka includes several key aspects as outlined in the Constitution",
+              "is_entailed": true,
+              "max_entailment_score": 0.6038936376571655,
+              "nli_score": 0.6038936376571655,
+              "overlap_score": 0.5454545454545454,
+              "supporting_passage": "ACT__1978_SEC_127_SUBSEC_1",
+              "verification_method": "nli"
+            },
+            {
+              "claim": "Firstly, the Supreme Court shall have jurisdiction in respect of constitutional matters, protection of fundamental rights, final appellate jurisdiction, consultative jurisdiction, jurisdiction in election petitions, jurisdiction in respect of any breach of the privileges of Parliament, and jurisdiction in respect of other matters as may be vested by Parliament",
+              "is_entailed": true,
+              "max_entailment_score": 0.72,
+              "nli_score": 0.6475092172622681,
+              "overlap_score": 0.72,
+              "supporting_passage": "ACT__1978_SEC_127_SUBSEC_1",
+              "verification_method": "nli"
+            },
+            {
+              "claim": "Additionally, the Supreme Court has the exclusive jurisdiction to hear and determine any question relating to the interpretation of the Constitution, with the power to refer such questions arising in other courts or tribunals for determination",
+              "is_entailed": true,
+              "max_entailment_score": 0.6742871999740601,
+              "nli_score": 0.6742871999740601,
+              "overlap_score": 0.6190476190476191,
+              "supporting_passage": "ACT__1978_SEC_127_SUBSEC_1",
+              "verification_method": "nli"
+            },
+            {
+              "claim": "Furthermore, the Supreme Court's jurisdiction is ordinarily exercised at Colombo, with the Chief Justice having the authority to direct the Court's jurisdiction and sittings as necessary, including the option to have matters heard by a Bench comprising five or more Judges for cases of general and public importance",
+              "is_entailed": true,
+              "max_entailment_score": 0.5702742338180542,
+              "nli_score": 0.5702742338180542,
+              "overlap_score": 0.3333333333333333,
+              "supporting_passage": "ACT__1978_SEC_127_SUBSEC_1",
+              "verification_method": "nli"
+            }
+          ]
+        },
+        "citation_validation": {
+          "total_citations": 3,
+          "valid_citations": 3,
+          "fabricated_citations": [],
+          "validation_rate": 1.0,
+          "all_valid": true,
+          "citation_details": [
+            {
+              "citation": "[Constitution, Article 118]",
+              "act_name": "Constitution",
+              "section": "118",
+              "is_valid": true,
+              "is_fabricated": false,
+              "matching_passage_id": "ACT__1978_SEC_118"
+            },
+            {
+              "citation": "[Constitution, Article 125]",
+              "act_name": "Constitution",
+              "section": "125",
+              "is_valid": true,
+              "is_fabricated": false,
+              "matching_passage_id": "ACT__1978_SEC_118"
+            },
+            {
+              "citation": "[Constitution, Article 132]",
+              "act_name": "Constitution",
+              "section": "132",
+              "is_valid": true,
+              "is_fabricated": false,
+              "matching_passage_id": "ACT__1978_SEC_118"
+            }
+          ]
+        },
+        "citation_coverage": {
+          "num_citations": 3,
+          "num_passages": 8,
+          "citation_density": 0.75,
+          "adequate_coverage": true
+        },
+        "citation_formatting": {
+          "total_bracket_citations": 3,
+          "correctly_formatted": 3,
+          "malformed_citations": [],
+          "all_properly_formatted": true
+        },
+        "issues": []
+      },
+      "system": "rag_pipeline"
+    },
+    {
+      "id": "Q09",
+      "question": "What is the Consolidated Fund under the Constitution of Sri Lanka?",
+      "gold_article": "Article 148",
+      "topic": "finance",
+      "answer": "The Consolidated Fund under the Constitution of Sri Lanka is a fund into which the produce of all taxes, imposts, rates, and duties, as well as other revenues and receipts of the Republic not allocated to specific purposes, shall be paid. The interest on the public debt, sinking fund payments, costs, charges, and expenses related to the collection, management, and receipt of the Consolidated Fund, along with other expenditures as determined by Parliament, shall be charged on the Consolidated Fund [Constitution, Article 41H]. Additionally, no sum shall be withdrawn from the Consolidated Fund except under the authority of a warrant issued by the Minister in charge of the subject of Finance, and such withdrawals must be for specified public services for the financial year during which the withdrawal is to take place or be otherwise lawfully charged on the Consolidated Fund [Constitution, Article 150]. Allowances for the Chairman and members of certain commissions shall also be charged on the Consolidated Fund and cannot be diminished during their term of office [Constitution, Article 5]. Furthermore, any bill or motion authorizing the disposal of, or provisions the imposition of charges upon, the Consolidated Fund or affecting public revenue shall only be introduced in Parliament by a Minister and must be approved by the Cabinet of Ministers [Constitution, Article 152].",
+      "abstained": false,
+      "abstention_reason": null,
+      "citations": [
+        {
+          "act_name": "Constitution",
+          "section": "41H",
+          "has_matching_evidence": true,
+          "passage_id": "ACT__1978_SEC_41H"
+        },
+        {
+          "act_name": "Constitution",
+          "section": "150",
+          "has_matching_evidence": true,
+          "passage_id": "ACT__1978_SEC_150"
+        },
+        {
+          "act_name": "Constitution",
+          "section": "5",
+          "has_matching_evidence": true,
+          "passage_id": "ACT__1978_SEC_5_CHUNK_6"
+        },
+        {
+          "act_name": "Constitution",
+          "section": "152",
+          "has_matching_evidence": true,
+          "passage_id": "ACT__1978_SEC_152_CHUNK_0"
+        }
+      ],
+      "num_retrieved": 10,
+      "verification_report": {
+        "verified": true,
+        "verification_passed": true,
+        "faithfulness": {
+          "is_faithful": true,
+          "faithfulness_score": 1.0,
+          "total_claims": 5,
+          "entailed_claims": 5,
+          "hallucinations": [],
+          "claim_results": [
+            {
+              "claim": "The Consolidated Fund under the Constitution of Sri Lanka is a fund into which the produce of all taxes, imposts, rates, and duties, as well as other revenues and receipts of the Republic not allocated to specific purposes, shall be paid",
+              "is_entailed": true,
+              "max_entailment_score": 0.9339859485626221,
+              "nli_score": 0.9339859485626221,
+              "overlap_score": 0.375,
+              "supporting_passage": "ACT__1978_SEC_149_SUBSEC_1",
+              "verification_method": "nli"
+            },
+            {
+              "claim": "The interest on the public debt, sinking fund payments, costs, charges, and expenses related to the collection, management, and receipt of the Consolidated Fund, along with other expenditures as determined by Parliament, shall be charged on the Consolidated Fund",
+              "is_entailed": true,
+              "max_entailment_score": 0.6190476190476191,
+              "nli_score": 0.6135450601577759,
+              "overlap_score": 0.6190476190476191,
+              "supporting_passage": "ACT__1978_SEC_150_SUBSEC_1",
+              "verification_method": "nli"
+            },
+            {
+              "claim": "Additionally, no sum shall be withdrawn from the Consolidated Fund except under the authority of a warrant issued by the Minister in charge of the subject of Finance, and such withdrawals must be for specified public services for the financial year during which the withdrawal is to take place or be otherwise lawfully charged on the Consolidated Fund",
+              "is_entailed": true,
+              "max_entailment_score": 0.8333333333333334,
+              "nli_score": 0.7739089727401733,
+              "overlap_score": 0.8333333333333334,
+              "supporting_passage": "ACT__1978_SEC_150",
+              "verification_method": "lexical_overlap"
+            },
+            {
+              "claim": "Allowances for the Chairman and members of certain commissions shall also be charged on the Consolidated Fund and cannot be diminished during their term of office",
+              "is_entailed": true,
+              "max_entailment_score": 0.6666666666666666,
+              "nli_score": 0.46706342697143555,
+              "overlap_score": 0.6666666666666666,
+              "supporting_passage": "ACT__1978_SEC_5_CHUNK_6",
+              "verification_method": "lexical_overlap"
+            },
+            {
+              "claim": "Furthermore, any bill or motion authorizing the disposal of, or provisions the imposition of charges upon, the Consolidated Fund or affecting public revenue shall only be introduced in Parliament by a Minister and must be approved by the Cabinet of Ministers",
+              "is_entailed": true,
+              "max_entailment_score": 0.6674401164054871,
+              "nli_score": 0.6674401164054871,
+              "overlap_score": 0.2916666666666667,
+              "supporting_passage": "ACT__1978_SEC_149_SUBSEC_1",
+              "verification_method": "nli"
+            }
+          ]
+        },
+        "citation_validation": {
+          "total_citations": 4,
+          "valid_citations": 4,
+          "fabricated_citations": [],
+          "validation_rate": 1.0,
+          "all_valid": true,
+          "citation_details": [
+            {
+              "citation": "[Constitution, Article 41H]",
+              "act_name": "Constitution",
+              "section": "41H",
+              "is_valid": true,
+              "is_fabricated": false,
+              "matching_passage_id": "ACT__1978_SEC_41H"
+            },
+            {
+              "citation": "[Constitution, Article 150]",
+              "act_name": "Constitution",
+              "section": "150",
+              "is_valid": true,
+              "is_fabricated": false,
+              "matching_passage_id": "ACT__1978_SEC_41H"
+            },
+            {
+              "citation": "[Constitution, Article 5]",
+              "act_name": "Constitution",
+              "section": "5",
+              "is_valid": true,
+              "is_fabricated": false,
+              "matching_passage_id": "ACT__1978_SEC_41H"
+            },
+            {
+              "citation": "[Constitution, Article 152]",
+              "act_name": "Constitution",
+              "section": "152",
+              "is_valid": true,
+              "is_fabricated": false,
+              "matching_passage_id": "ACT__1978_SEC_41H"
+            }
+          ]
+        },
+        "citation_coverage": {
+          "num_citations": 4,
+          "num_passages": 7,
+          "citation_density": 0.8,
+          "adequate_coverage": true
+        },
+        "citation_formatting": {
+          "total_bracket_citations": 4,
+          "correctly_formatted": 4,
+          "malformed_citations": [],
+          "all_properly_formatted": true
+        },
+        "issues": []
+      },
+      "system": "rag_pipeline"
+    },
+    {
+      "id": "Q10",
+      "question": "Can the freedom of thought and conscience be restricted under the Constitution?",
+      "gold_article": "Article 10",
+      "topic": "fundamental rights",
+      "answer": "\"Every person is entitled to freedom of thought, conscience and religion, including the freedom to have or to adopt a religion or belief of his choice\" as per [Constitution, Article 10]. This provision explicitly guarantees the freedom of thought and conscience, indicating that these freedoms are protected under the Constitution and cannot be restricted.",
+      "abstained": false,
+      "abstention_reason": null,
+      "citations": [
+        {
+          "act_name": "Constitution",
+          "section": "10",
+          "has_matching_evidence": true,
+          "passage_id": "ACT__1978_SEC_10"
+        }
+      ],
+      "num_retrieved": 10,
+      "verification_report": {
+        "verified": true,
+        "verification_passed": false,
+        "faithfulness": {
+          "is_faithful": false,
+          "faithfulness_score": 0.5,
+          "total_claims": 2,
+          "entailed_claims": 1,
+          "hallucinations": [
+            "This provision explicitly guarantees the freedom of thought and conscience, indicating that these freedoms are protected under the Constitution and cannot be restricted"
+          ],
+          "claim_results": [
+            {
+              "claim": "\"Every person is entitled to freedom of thought, conscience and religion, including the freedom to have or to adopt a religion or belief of his choice\" as per",
+              "is_entailed": true,
+              "max_entailment_score": 0.8780459761619568,
+              "nli_score": 0.8780459761619568,
+              "overlap_score": 0.0,
+              "supporting_passage": "ACT__1978_SEC_10",
+              "verification_method": "nli"
+            },
+            {
+              "claim": "This provision explicitly guarantees the freedom of thought and conscience, indicating that these freedoms are protected under the Constitution and cannot be restricted",
+              "is_entailed": false,
+              "max_entailment_score": 0.07692307692307693,
+              "nli_score": 0.0,
+              "overlap_score": 0.07692307692307693,
+              "supporting_passage": "ACT__1978_SEC_10",
+              "verification_method": "lexical_overlap"
+            }
+          ]
+        },
+        "citation_validation": {
+          "total_citations": 1,
+          "valid_citations": 1,
+          "fabricated_citations": [],
+          "validation_rate": 1.0,
+          "all_valid": true,
+          "citation_details": [
+            {
+              "citation": "[Constitution, Article 10]",
+              "act_name": "Constitution",
+              "section": "10",
+              "is_valid": true,
+              "is_fabricated": false,
+              "matching_passage_id": "ACT__1978_SEC_10"
+            }
+          ]
+        },
+        "citation_coverage": {
+          "num_citations": 1,
+          "num_passages": 1,
+          "citation_density": 0.5,
+          "adequate_coverage": true
+        },
+        "citation_formatting": {
+          "total_bracket_citations": 1,
+          "correctly_formatted": 1,
+          "malformed_citations": [],
+          "all_properly_formatted": true
+        },
+        "issues": [
+          "Low faithfulness score: 50.00%",
+          "Hallucinations detected: 1 claims"
+        ]
+      },
+      "system": "rag_pipeline"
+    }
+  ],
+  "summary": {
+    "n_questions": 10,
+    "baseline_abstentions": 0,
+    "rag_abstentions": 0,
+    "rag_with_citations": 10
+  }
+}

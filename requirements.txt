@@ -1,0 +1,52 @@
+# Core Dependencies
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic>=2.7.0
+pydantic-settings>=2.0.0
+python-dotenv==1.0.0
+
+# Machine Learning & NLP
+torch==2.2.2
+torchvision==0.17.2
+transformers==4.37.2
+sentence-transformers==2.3.0
+spacy==3.7.2
+
+# Retrieval & Search
+faiss-cpu==1.8.0
+elasticsearch==8.12.0
+rank-bm25==0.2.2
+datasets==2.16.1  # For loading Hugging Face datasets
+
+# OCR & Document Processing
+pytesseract==0.3.10
+pdf2image==1.16.3
+pdfplumber==0.10.3
+beautifulsoup4==4.12.3
+lxml==5.1.0
+
+# Data Processing
+pandas==2.1.4
+numpy==1.26.3
+tqdm==4.66.1
+datasets==2.16.1  # For loading Hugging Face datasets
+
+# Evaluation
+scikit-learn==1.4.0
+nltk==3.8.1
+
+# Utilities
+requests==2.31.0
+python-multipart==0.0.6
+
+# LLM APIs
+openai>=1.52.0
+
+# Web Framework (Additional)
+streamlit==1.31.0
+
+# Development & Testing
+pytest==7.4.4
+jupyter==1.0.0
+ipykernel==6.28.0
+black==24.1.1

@@ -1,0 +1,36 @@
+{
+  "version": "1.0",
+  "description": "Example manifest for Sri Lankan legal documents",
+  "acts": [
+    {
+      "pdf_path": "data/raw/penal_code_1883.pdf",
+      "name": "Penal Code",
+      "number": "2",
+      "year": 1883
+    },
+    {
+      "pdf_path": "data/raw/code_of_criminal_procedure_1979.pdf",
+      "name": "Code of Criminal Procedure Act",
+      "number": "15",
+      "year": 1979
+    },
+    {
+      "pdf_path": "data/raw/evidence_ordinance_1895.pdf",
+      "name": "Evidence Ordinance",
+      "number": "14",
+      "year": 1895
+    },
+    {
+      "pdf_path": "data/raw/civil_procedure_code_1889.pdf",
+      "name": "Civil Procedure Code",
+      "number": "2",
+      "year": 1889
+    },
+    {
+      "pdf_path": "data/raw/contracts_ordinance_1872.pdf",
+      "name": "Sale of Goods Ordinance",
+      "number": "11",
+      "year": 1896
+    }
+  ]
+}

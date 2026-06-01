@@ -1,0 +1,17 @@
+{
+  "condition": "A1_bm25_only",
+  "description": "BM25 only — ablates dense retrieval",
+  "n_items": 334,
+  "retrieval_only": true,
+  "article_level": true,
+  "retrieval": {
+    "recall@10_mean": 0.8213572854291417,
+    "recall@10_std": 0.3518172867913768,
+    "mrr_mean": 0.6885334974406832,
+    "mrr_std": 0.39175511782179995,
+    "ndcg@10_mean": 0.7567664285288331,
+    "ndcg@10_std": 0.2716954692350238
+  },
+  "attribution": {},
+  "abstention": {}
+}

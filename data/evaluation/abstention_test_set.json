@@ -1,0 +1,183 @@
+{
+  "version": "1.0",
+  "created": "2026-05-26",
+  "description": "Abstention evaluation test set. Out-of-corpus items have relevant_passages=[] (expected_abstain=True). In-corpus controls have relevant_passages set (expected_abstain=False). Gold label: expected_abstain = (len(relevant_passages) == 0).",
+  "num_items": 20,
+  "out_of_corpus": 15,
+  "in_corpus_controls": 5,
+  "items": [
+    {
+      "item_id": "ABS_001",
+      "question": "What is the minimum wage for private sector employees in Sri Lanka?",
+      "query_type": "factual",
+      "domain": "labour_law",
+      "relevant_passages": [],
+      "notes": "Out-of-corpus: minimum wage is governed by Wages Board Ordinance and subsidiary legislation, not the Constitution."
+    },
+    {
+      "item_id": "ABS_002",
+      "question": "What is the personal income tax rate for individuals earning over Rs. 3 million per year in Sri Lanka?",
+      "query_type": "factual",
+      "domain": "tax_law",
+      "relevant_passages": [],
+      "notes": "Out-of-corpus: income tax rates are set by the Inland Revenue Act, not the Constitution."
+    },
+    {
+      "item_id": "ABS_003",
+      "question": "What notice period must an employer give before dismissing an employee in Sri Lanka?",
+      "query_type": "procedural",
+      "domain": "labour_law",
+      "relevant_passages": [],
+      "notes": "Out-of-corpus: dismissal notice periods are governed by the Termination of Employment of Workmen Act."
+    },
+    {
+      "item_id": "ABS_004",
+      "question": "What is the process and fee for registering a private limited company in Sri Lanka?",
+      "query_type": "procedural",
+      "domain": "company_law",
+      "relevant_passages": [],
+      "notes": "Out-of-corpus: company registration is governed by the Companies Act No. 7 of 2007."
+    },
+    {
+      "item_id": "ABS_005",
+      "question": "What are the penalties for copyright infringement in Sri Lanka?",
+      "query_type": "factual",
+      "domain": "intellectual_property",
+      "relevant_passages": [],
+      "notes": "Out-of-corpus: copyright penalties are governed by the Intellectual Property Act No. 36 of 2003."
+    },
+    {
+      "item_id": "ABS_006",
+      "question": "What are the conditions for granting bail to a person accused of theft in Sri Lanka?",
+      "query_type": "factual",
+      "domain": "criminal_law",
+      "relevant_passages": [],
+      "notes": "Out-of-corpus: bail conditions are governed by the Code of Criminal Procedure Act and Bail Act."
+    },
+    {
+      "item_id": "ABS_007",
+      "question": "What are the mandatory minimum penalties for drug trafficking offences in Sri Lanka?",
+      "query_type": "factual",
+      "domain": "criminal_law",
+      "relevant_passages": [],
+      "notes": "Out-of-corpus: drug trafficking penalties are governed by the Poisons, Opium and Dangerous Drugs Ordinance and Drugs Act."
+    },
+    {
+      "item_id": "ABS_008",
+      "question": "How does a foreign national apply for a tourist visa to visit Sri Lanka?",
+      "query_type": "procedural",
+      "domain": "immigration_law",
+      "relevant_passages": [],
+      "notes": "Out-of-corpus: visa procedures are governed by the Immigrants and Emigrants Act, not the Constitution."
+    },
+    {
+      "item_id": "ABS_009",
+      "question": "On what grounds can a person file for divorce in Sri Lanka?",
+      "query_type": "factual",
+      "domain": "family_law",
+      "relevant_passages": [],
+      "notes": "Out-of-corpus: divorce grounds are governed by the Matrimonial Causes Ordinance and personal laws."
+    },
+    {
+      "item_id": "ABS_010",
+      "question": "What fines can be imposed on a company for selling defective goods to consumers in Sri Lanka?",
+      "query_type": "factual",
+      "domain": "consumer_law",
+      "relevant_passages": [],
+      "notes": "Out-of-corpus: consumer protection fines are governed by the Consumer Affairs Authority Act."
+    },
+    {
+      "item_id": "ABS_011",
+      "question": "What are the regulations governing the maximum interest rate that banks can charge on personal loans in Sri Lanka?",
+      "query_type": "factual",
+      "domain": "banking_law",
+      "relevant_passages": [],
+      "notes": "Out-of-corpus: interest rate regulations are governed by the Central Bank of Sri Lanka Act and Monetary Board directions."
+    },
+    {
+      "item_id": "ABS_012",
+      "question": "What environmental impact assessment is required before constructing a hotel near a coastal area in Sri Lanka?",
+      "query_type": "procedural",
+      "domain": "environmental_law",
+      "relevant_passages": [],
+      "notes": "Out-of-corpus: environmental impact assessments are governed by the National Environmental Act No. 47 of 1980."
+    },
+    {
+      "item_id": "ABS_013",
+      "question": "What are the formal requirements for a valid will under Sri Lankan law?",
+      "query_type": "factual",
+      "domain": "succession_law",
+      "relevant_passages": [],
+      "notes": "Out-of-corpus: will requirements are governed by the Prevention of Frauds Ordinance and Wills Ordinance."
+    },
+    {
+      "item_id": "ABS_014",
+      "question": "What are the speed limits on expressways in Sri Lanka and what penalty applies for exceeding them?",
+      "query_type": "factual",
+      "domain": "traffic_law",
+      "relevant_passages": [],
+      "notes": "Out-of-corpus: speed limits and traffic penalties are governed by the Motor Traffic Act."
+    },
+    {
+      "item_id": "ABS_015",
+      "question": "What licence is required to operate a restaurant in Colombo and how is it obtained?",
+      "query_type": "procedural",
+      "domain": "commercial_licensing",
+      "relevant_passages": [],
+      "notes": "Out-of-corpus: restaurant licensing is governed by local authority by-laws and the Food Act."
+    },
+    {
+      "item_id": "ABS_016",
+      "question": "What is the minimum age required to vote in a Sri Lankan general election?",
+      "query_type": "factual",
+      "domain": "constitutional_law",
+      "relevant_passages": [
+        "ACT__1978_SEC_89_CHUNK_0"
+      ],
+      "notes": "In-corpus control: Article 89 of the Constitution specifies voting qualifications including age 18."
+    },
+    {
+      "item_id": "ABS_017",
+      "question": "What are the functions and powers of the Attorney General of Sri Lanka?",
+      "query_type": "factual",
+      "domain": "constitutional_law",
+      "relevant_passages": [
+        "ACT__1978_SEC_61E"
+      ],
+      "notes": "In-corpus control: Article 61E of the Constitution sets out the Attorney General's functions."
+    },
+    {
+      "item_id": "ABS_018",
+      "question": "What is the term of office of the President of Sri Lanka?",
+      "query_type": "factual",
+      "domain": "constitutional_law",
+      "relevant_passages": [
+        "ACT__1978_SEC_30_SUBSEC_1"
+      ],
+      "notes": "In-corpus control: Article 30 of the Constitution specifies the presidential term of office."
+    },
+    {
+      "item_id": "ABS_019",
+      "question": "Under what circumstances can a state of emergency be proclaimed in Sri Lanka?",
+      "query_type": "factual",
+      "domain": "constitutional_law",
+      "relevant_passages": [
+        "ACT__1978_SEC_155_CHUNK_0",
+        "ACT__1978_SEC_155_CHUNK_1"
+      ],
+      "notes": "In-corpus control: Article 155 of the Constitution governs emergency proclamations."
+    },
+    {
+      "item_id": "ABS_020",
+      "question": "How is the Cabinet of Ministers of Sri Lanka constituted and who appoints Ministers?",
+      "query_type": "factual",
+      "domain": "constitutional_law",
+      "relevant_passages": [
+        "ACT__1978_SEC_43",
+        "ACT__1978_SEC_44",
+        "ACT__1978_SEC_44_SUBSEC_1"
+      ],
+      "notes": "In-corpus control: Article 44 of the Constitution governs the Cabinet of Ministers."
+    }
+  ]
+}

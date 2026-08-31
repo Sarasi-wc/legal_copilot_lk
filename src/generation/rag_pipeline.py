@@ -128,6 +128,19 @@ class RAGPipeline:
 
         logger.debug(f"Retrieved {len(retrieved_passages)} passages")
 
+        # Compact retrieval summary for UI/diagnostic consumers (does not affect
+        # evaluation — scores mirror what HybridRetriever already computed).
+        retrieval_scores = [
+            {
+                'passage_id': p.get('passage_id'),
+                'act_name': p.get('act_name'),
+                'section_number': p.get('metadata', {}).get('section_number'),
+                'score': p.get('score'),
+                'exact_match': p.get('exact_match', False)
+            }
+            for p in retrieved_passages
+        ]
+
         # Step 3: Inference — keyword-based conflict proxy for abstention (RO3)
         inference_result = None
         if self.use_inference and retrieved_passages:
@@ -165,6 +178,7 @@ class RAGPipeline:
                     'query_metadata': query_metadata,
                     'retrieval_method': self.retrieval_method,
                     'num_retrieved': len(retrieved_passages),
+                    'retrieval_scores': retrieval_scores,
                     'verification_enabled': self.use_verification
                 }
                 return result
@@ -235,6 +249,7 @@ class RAGPipeline:
         answer_result['query_metadata'] = query_metadata
         answer_result['retrieval_method'] = self.retrieval_method
         answer_result['num_retrieved'] = len(retrieved_passages)
+        answer_result['retrieval_scores'] = retrieval_scores
         answer_result['verification_enabled'] = self.use_verification
         answer_result['inference_enabled'] = self.use_inference
         answer_result['explainability_enabled'] = self.use_explainability

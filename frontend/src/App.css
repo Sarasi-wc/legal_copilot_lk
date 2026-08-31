@@ -319,6 +319,470 @@ body {
   font-size: 0.9rem;
 }
 
+/* Tabs */
+.tab-bar {
+  display: flex;
+  gap: 0.25rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 0 0.5rem;
+  overflow-x: auto;
+}
+
+.tab-button {
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  padding: 1rem 1.1rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #666;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.15s;
+}
+
+.tab-button:hover {
+  color: #1f77b4;
+}
+
+.tab-button.active {
+  color: #1f77b4;
+  border-bottom-color: #1f77b4;
+}
+
+/* Panel intro (Upload & Preview / Answer Diagnostics headers) */
+.panel-intro {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.panel-intro h3 {
+  margin-bottom: 0.75rem;
+}
+
+.panel-intro > p {
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+.muted {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.info-callout {
+  background: #e7f1fb;
+  border-left: 4px solid #1f77b4;
+  padding: 1rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  color: #234;
+}
+
+.info-callout code,
+.panel-intro code,
+.citations-section code {
+  background: rgba(0,0,0,0.06);
+  padding: 0.1rem 0.35rem;
+  border-radius: 3px;
+  font-size: 0.85em;
+}
+
+/* Upload form */
+.upload-form {
+  margin-top: 1.5rem;
+}
+
+.upload-dropzone {
+  border: 2px dashed #ccc;
+  border-radius: 6px;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  background: #fafafa;
+}
+
+.upload-filename {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.upload-fields {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.upload-fields input[type="text"],
+.upload-fields input[type="number"] {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.checkbox-inline {
+  display: flex;
+  align-items: flex-end;
+}
+
+.checkbox-inline label {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.6rem;
+}
+
+.text-preview {
+  width: 100%;
+  font-family: 'SFMono-Regular', Consolas, Menlo, monospace;
+  font-size: 0.85rem;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: #fafafa;
+  resize: vertical;
+}
+
+/* Tables */
+.table-wrap {
+  overflow-x: auto;
+  margin: 0.75rem 0;
+}
+
+.passages-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.passages-table th,
+.passages-table td {
+  text-align: left;
+  padding: 0.5rem 0.6rem;
+  border-bottom: 1px solid #eee;
+  white-space: nowrap;
+}
+
+.passages-table th {
+  background: #f5f5f5;
+  color: #444;
+  position: sticky;
+  top: 0;
+}
+
+.passages-table td:nth-child(3) {
+  white-space: normal;
+  min-width: 220px;
+}
+
+/* JSON viewer */
+.json-view {
+  background: #1e1e2e;
+  color: #d4d4d4;
+  padding: 1rem;
+  border-radius: 6px;
+  font-family: 'SFMono-Regular', Consolas, Menlo, monospace;
+  font-size: 0.8rem;
+  overflow-x: auto;
+  max-height: 400px;
+  margin-top: 0.75rem;
+}
+
+/* Metric text values (non-numeric, e.g. retrieval method name) */
+.metric-text {
+  font-size: 1.1rem !important;
+}
+
+/* Diagnostics hint under a completed answer */
+.diagnostics-hint {
+  background: #f0f8ff;
+  border-left: 4px solid #1f77b4;
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  color: #234;
+}
+
+/* Answer Diagnostics grid (gauge + citation bar side by side) */
+.diagnostics-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin: 1rem 0;
+}
+
+/* Gauge */
+.gauge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+.gauge-svg {
+  width: 100%;
+  max-width: 260px;
+}
+
+.gauge-value {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #222;
+  margin-top: -0.5rem;
+}
+
+.gauge-label {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+/* Retrieval bar chart */
+.retrieval-chart {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.retrieval-row {
+  display: grid;
+  grid-template-columns: 110px 1fr 55px;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.retrieval-label {
+  font-size: 0.82rem;
+  color: #444;
+  text-align: right;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.retrieval-track {
+  background: #eee;
+  border-radius: 3px;
+  height: 18px;
+  overflow: hidden;
+}
+
+.retrieval-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+.retrieval-score {
+  font-size: 0.8rem;
+  color: #444;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Citation validity bar */
+.citation-bar-wrap {
+  margin-top: 0.75rem;
+}
+
+.citation-bar {
+  display: flex;
+  height: 20px;
+  border-radius: 4px;
+  overflow: hidden;
+  background: #eee;
+}
+
+.citation-bar-segment {
+  height: 100%;
+  transition: width 0.3s ease;
+}
+
+.citation-bar-legend {
+  display: flex;
+  gap: 1.25rem;
+  margin-top: 0.6rem;
+  font-size: 0.85rem;
+  color: #444;
+}
+
+.legend-swatch {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  margin-right: 0.35rem;
+}
+
+/* Generic data table (Corpus & Dataset / Research Results tabs) */
+.data-table-wrap {
+  overflow-x: auto;
+  margin: 0.75rem 0;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+}
+
+.data-table th,
+.data-table td {
+  text-align: left;
+  padding: 0.6rem 0.75rem;
+  border-bottom: 1px solid #eee;
+}
+
+.data-table th {
+  background: #f5f5f5;
+  color: #444;
+}
+
+.data-table td.numeric,
+.data-table th.numeric {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.data-table td.highlight-cell {
+  background: #d4edda;
+  font-weight: 600;
+}
+
+/* Vertical bar chart (query-type distribution) */
+.vbar-chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 1.25rem;
+  height: 220px;
+  padding-top: 1rem;
+  min-width: 0;
+}
+
+.vbar-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+}
+
+.vbar-value {
+  font-size: 0.82rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0.35rem;
+}
+
+.vbar-track {
+  width: 100%;
+  max-width: 64px;
+  height: 150px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.vbar-fill {
+  width: 100%;
+  border-radius: 4px 4px 0 0;
+  transition: height 0.3s ease;
+}
+
+.vbar-label {
+  font-size: 0.78rem;
+  color: #555;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+/* Grouped bar chart (RQ2 retrieval effectiveness) */
+.grouped-chart-wrap {
+  margin-top: 1rem;
+}
+
+.grouped-chart {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  gap: 1rem;
+  height: 260px;
+  padding: 1rem 0.5rem 0;
+  border-bottom: 1px solid #ddd;
+  min-width: 0;
+  overflow-x: auto;
+}
+
+.grouped-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+  flex: 1;
+  min-width: 0;
+}
+
+.grouped-bars {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.35rem;
+  height: 200px;
+}
+
+.grouped-bar-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.grouped-bar-value {
+  font-size: 0.68rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0.25rem;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+.grouped-bar-track {
+  width: 20px;
+  height: 170px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.grouped-bar-fill {
+  width: 100%;
+  border-radius: 3px 3px 0 0;
+  transition: height 0.3s ease;
+}
+
+.grouped-col-label {
+  font-size: 0.78rem;
+  color: #555;
+  margin-top: 0.6rem;
+  text-align: center;
+  white-space: pre-line;
+}
+
+.grouped-legend {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: #444;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .container {
@@ -331,5 +795,26 @@ body {
 
   .example-buttons {
     grid-template-columns: 1fr;
+  }
+
+  .upload-fields {
+    grid-template-columns: 1fr;
+  }
+
+  .diagnostics-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .retrieval-row {
+    grid-template-columns: 80px 1fr 45px;
+  }
+
+  .vbar-chart,
+  .grouped-chart {
+    gap: 0.5rem;
+  }
+
+  .grouped-bar-track {
+    width: 14px;
   }
 }

@@ -20146,5 +20146,14 @@
         "legal_domain": "constitutional"
       }
     ]
-  }
+  },
+  "significance_tests_mrr_bonferroni_adjusted": {
+    "bm25_vs_dense": 1.0,
+    "bm25_vs_hybrid": 4.544862957446642e-08,
+    "bm25_vs_hybrid_rerank": 2.089112097977628e-12,
+    "dense_vs_hybrid": 3.8096761910408086e-06,
+    "dense_vs_hybrid_rerank": 1.504862201773019e-11,
+    "hybrid_vs_hybrid_rerank": 0.0014081473413550935
+  },
+  "significance_tests_mrr_bonferroni_note": "significance_tests_mrr contains raw paired Wilcoxon signed-rank p-values. significance_tests_mrr_bonferroni_adjusted applies Bonferroni correction (p_adjusted = min(p_raw * m, 1.0), m=6 pairwise comparisons) as used for reporting in dissertation Table 6.3. Added 2026-08-27 during consistency review."
 }
